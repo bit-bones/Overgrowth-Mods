@@ -1,0 +1,226 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<Name>pink_tail_rat</Name>
+<Description></Description>
+<Shader>post</Shader>
+<Shadows>true</Shadows>
+<LoadingScreen>
+    <Image>Data/Images/full_fallback.png</Image>
+</LoadingScreen>
+<Terrain>
+    <Heightmap>Data/Textures/Terrain/dusk_swamp/dusk_swamp_hm.png</Heightmap>
+    <ShaderExtra></ShaderExtra>
+    <DetailMap></DetailMap>
+    <ColorMap>Data/Textures/Terrain/dusk_swamp/dusk_swamp_c.tga</ColorMap>
+    <DetailMaps>
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/dirt.tga" normalpath="Data/Textures/Terrain/DetailTextures/dirt_normal.png" materialpath="Data/Materials/default.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/water.tga" normalpath="Data/Textures/Terrain/DetailTextures/water_normal.tga" materialpath="Data/Materials/default.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/pebbles.tga" normalpath="Data/Textures/Terrain/DetailTextures/pebbles_normal.tga" materialpath="Data/Materials/default.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/salt_edge.tga" normalpath="Data/Textures/Terrain/DetailTextures/salt_edge_normal.tga" materialpath="Data/Materials/default.xml" />
+    </DetailMaps>
+    <DetailObjects />
+</Terrain>
+<OutOfDate NavMesh="true" NavMeshParamHash="-1674835251" />
+<AmbientSounds />
+<Script>2pchallengelevel.as</Script>
+<LevelScriptParameters>
+    <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
+    <parameter name="HDR Black point" type="float" val="0.005" />
+    <parameter name="HDR Bloom multiplier" type="float" val="1" />
+    <parameter name="HDR White point" type="float" val="0.7" />
+    <parameter name="Level Boundaries" type="int" val="1" />
+    <parameter name="Objectives" type="string" val="destroy_all" />
+    <parameter name="Player Limit" type="int" val="2" />
+    <parameter name="Saturation" type="float" val="1" />
+    <parameter name="Shared Camera" type="int" val="0" />
+</LevelScriptParameters>
+<NavMeshParameters generate="true" cell_size="0.3" cell_height="0.2" agent_height="1.7" agent_radius="0.4" agent_max_climb="1.5" agent_max_slope="60" />
+<Sky>
+    <DomeTexture>Data/Textures/skies/DarkSunset.tga</DomeTexture>
+    <SunAngularRad>0.186462</SunAngularRad>
+    <SunColorAngle>151.077</SunColorAngle>
+    <RayToSun r0="-0.127649" r1="0.042799" r2="0.990896" />
+</Sky>
+<ActorObjects>
+    <CameraObject t0="100.261" t1="52.44" t2="-98.7909" s0="1" s1="1" s2="1" q0="0.168436" q1="-0.819693" q2="0.456241" q3="0.302616" euler_x="-2.1258" euler_y="-0.70732" euler_z="-3.14159" id="1">
+        <parameters />
+    </CameraObject>
+    <Group t0="100.097" t1="45.0981" t2="-95.5264" s0="0.688828" s1="0.695651" s2="0.730019" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="4" version="1">
+        <parameters />
+        <Hotspot t0="100.106" t1="45.1103" t2="-95.4967" s0="0.162987" s1="0.162987" s2="0.162987" q0="0" q1="0" q2="-1" q3="0.000545621" euler_x="0" euler_y="0" euler_z="-3.1405" id="1" type_file="Data/Objects/Hotspots/fire_test.xml">
+            <parameters>
+                <parameter name="Fire Ribbons" type="int" val="4" />
+                <parameter name="Ignite Characters" type="int" val="1" />
+                <parameter name="Light Amplify" type="float" val="1" />
+                <parameter name="Light Distance" type="float" val="2" />
+            </parameters>
+            <Connections />
+            <ConnectionsFrom />
+        </Hotspot>
+        <EnvObject t0="100.078" t1="44.9695" t2="-95.5697" s0="0.316541" s1="0.0489252" s2="0.3124" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="2" color_r="0.0235294" color_g="0.0235292" color_b="0.0235292" overbright="0" type_file="Data/Objects/primitives/edged_cube.xml">
+            <parameters />
+        </EnvObject>
+        <Decal t0="100.11" t1="45.0123" t2="-95.5734" s0="0.50541" s1="0.50541" s2="0.50541" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="3" type_file="Data/Objects/Decals/flame_base.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+            <parameters />
+        </Decal>
+    </Group>
+    <EnvObject t0="107.036" t1="45.9427" t2="-114.522" s0="1" s1="1" s2="1" q0="0" q1="0.0261769" q2="0" q3="0.999657" euler_x="0" euler_y="0.0523598" euler_z="0" id="6" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/rabbit_village/rabbit_hut_base.xml">
+        <parameters />
+    </EnvObject>
+    <ActorObject t0="107.385" t1="47.1326" t2="-114.216" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="7" type_file="Data/Objects/IGF_Characters/IGF_TurnerActor.xml" is_player="1">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="turner" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Cloth" channel="0" red="1" green="1" blue="1" />
+            <Color label="Rope" channel="1" red="1" green="1" blue="1" />
+            <Color label="Fur" channel="2" red="1" green="1" blue="1" />
+        </Palette>
+    </ActorObject>
+    <EnvObject t0="107.009" t1="48.37" t2="-114.248" s0="1" s1="1" s2="1" q0="-0.00134361" q1="0" q2="-2.93713e-05" q3="0.999999" euler_x="-0.00268722" euler_y="0" euler_z="-5.87425e-05" id="11" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/rabbit_village/rabbit_hut_roof.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="107.13" t1="47.684" t2="-114.261" s0="1" s1="1" s2="1" q0="-0.00231081" q1="0.0290282" q2="-4.7233e-05" q3="0.999576" euler_x="-0.00463022" euler_y="0.0580642" euler_z="-0.000228969" id="12" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/rabbit_village/rabbit_hut_walls.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="100.063" t1="45.0858" t2="-95.5592" s0="1" s1="1" s2="1" q0="0" q1="-0.00455061" q2="0" q3="0.99999" euler_x="0" euler_y="-0.00910125" euler_z="0" id="13" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/fire_pit.xml">
+        <parameters />
+    </EnvObject>
+    <ActorObject t0="97.4226" t1="46.0926" t2="-95.5966" s0="1" s1="1" s2="1" q0="0" q1="0.942792" q2="0" q3="0.333382" euler_x="3.14159" euler_y="0.679777" euler_z="3.14159" id="14" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="0.75" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1.75" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="0.5" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.375" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1.5" />
+            <parameter name="Muscle" type="float" val="0.453125" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rat" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="rat" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="14" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Shirt" channel="0" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Fur" channel="1" red="0.580392" green="0.580386" blue="0.580386" />
+            <Color label="Pants" channel="2" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Skin" channel="3" red="0.513726" green="0.191388" blue="0.244479" />
+        </Palette>
+    </ActorObject>
+    <PlaceholderObject t0="107.23" t1="46.623" t2="-114.727" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="49" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Name" type="string" val="player_spawn" />
+        </parameters>
+        <Connections>
+            <Connection id="49" />
+        </Connections>
+    </PlaceholderObject>
+</ActorObjects>
+<RecentItems>
+    <SpawnerItem display_name="Macuahuitl Metal" path="Data/Items/macuahuitl_metal.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/macahuitl_m.png" />
+    <SpawnerItem display_name="Chain" path="Data/Objects/therium/chain.xml" thumbnail_path="Data/Textures/ui/t2/spawner.jpg" />
+    <SpawnerItem display_name="Fire" path="Data/Objects/fire.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Dynamic Light" path="Data/Objects/default_light.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Janner" path="Data/Objects/characters/dogs/janner/janner_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/janner.png" />
+    <SpawnerItem display_name="IGF_Guard.xml" path="Data/Objects/IGF_Characters/IGF_Guard.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="tower.xml" path="Data/Objects/tower.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="cylinder_dome_building.xml" path="Data/Objects/2d_3d/structures/cylinder_dome_building.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="rabbit_hut_base.xml" path="Data/Objects/Buildings/rabbit_village/rabbit_hut_base.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="rabbit_hut_round_hearth.xml" path="Data/Objects/Buildings/rabbit_village/rabbit_hut_round_hearth.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="rabbit_hut_whole.xml" path="Data/Objects/Buildings/rabbit_village/rabbit_hut_whole.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="rabbit_hut_walls.xml" path="Data/Objects/Buildings/rabbit_village/rabbit_hut_walls.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="rabbit_hut_roof.xml" path="Data/Objects/Buildings/rabbit_village/rabbit_hut_roof.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="Carrot" path="Data/Objects/therium/carrot.xml" thumbnail_path="Data/Textures/ui/t2/spawner.jpg" />
+    <SpawnerItem display_name="Camp All Assets" path="Data/Objects/Environment/camp/camp_all_assets.xml" thumbnail_path="Data/UI/spawner/thumbs/Prefabs/camp_all_assets.png" />
+    <SpawnerItem display_name="Stormy Hotspot" path="Data/Objects/Hotspots/rain.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Canyon Rock (many)" path="Data/Objects/Sounds/canyonrocksfall.xml" thumbnail_path="Data/UI/spawner/thumbs/Sounds/speaker_icon.png" />
+    <SpawnerItem display_name="Ambient Sound Hotspot" path="Data/Objects/Hotspots/ambient_sound.xml" thumbnail_path="Data/UI/spawner/thumbs/Sounds/speaker_icon.png" />
+    <SpawnerItem display_name="Hanging Garden Arena" path="Data/Objects/Buildings/hanging_garden_arena/hanging_garden_arena.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/hanging_garden_arena.png" />
+    <SpawnerItem display_name="Overgrowth Level Hotspot" path="Data/Objects/Hotspots/overgrowth_level.xml" thumbnail_path="Data/Textures/ui/ogicon.png" />
+    <SpawnerItem display_name="Dog Knife" path="Data/Items/DogWeapons/DogKnife.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/wknife.png" />
+    <SpawnerItem display_name="Activate Character Hotspot" path="Data/Objects/Hotspots/activate_characters.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Mug" path="Data/Objects/therium/mug.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Book Arliss" path="Data/Objects/therium/bookarliss.xml" thumbnail_path="Data/Textures/ui/t2/spawner.jpg" />
+    <SpawnerItem display_name="Fire Pit" path="Data/Objects/Environment/camp/fire_pit.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/fire_pit.png" />
+    <SpawnerItem display_name="Enemy Spawn" path="Data/Objects/placeholder/placeholder_enemy_spawn.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/placeholder_enemy_spawn.png" />
+    <SpawnerItem display_name="Hooded Male Rat" path="Data/Objects/characters/rats/hooded_rat_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/Hooded_rat_actor.png" />
+    <SpawnerItem display_name="Male Rabbit Black Neck" path="Data/Objects/characters/rabbits/male_rabbit_1_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/Male_rabbit_1_actor.png" />
+    <SpawnerItem display_name="Kill Timeout Hotspot" path="Data/Objects/Hotspots/kill_timeout.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
+    <SpawnerItem display_name="Player Spawn" path="Data/Objects/placeholder/placeholder_player_spawn.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/placeholder_player_spawn.png" />
+</RecentItems>

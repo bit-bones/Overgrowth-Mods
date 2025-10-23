@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<Mod>
+    <Id>com-coop-challenges</Id>
+    <Name>Co-op Challenges</Name>
+
+    <Category>Level Pack</Category>
+
+    <Thumbnail>Data/Images/wolfire_sandbox_levels/thumb.jpg</Thumbnail>
+    <PreviewImage>Data/Images/wolfire_sandbox_levels/thumb.jpg</PreviewImage>
+
+    <Description>A set of co-op challenges</Description>
+    <Version>0.0.1</Version>
+    <Author>Community</Author>
+
+    <Tag>Levels</Tag>
+
+    <SupportedVersion>*</SupportedVersion>
+    <NeedsRestart>false</NeedsRestart>
+    <SupportsOnline>true</SupportsOnline>
+
+    <Campaign title="Co-op Challenges" thumbnail="Images/wolfire_sandbox_levels/campaign.jpg" menu_script="arena_campaign_menu.as" main_script="arena_campaign.as" supports_online="true" requires_online="true">
+        <Level title="Rat Swamp" thumbnail="Images/coop_challenge_levels/rat_swamp.jpg">2p-challenges/test_level.xml</Level>
+    </Campaign>
+</Mod>
