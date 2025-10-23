@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<Mod>
+    <Id>com-overgrowth-campaign-multiplayer</Id> 
+
+    <Name>Overgrowth Campaign Multiplayer</Name>
+
+    <Category>Campaign</Category>
+
+    <Thumbnail>Data/Images/wolfire_overgrowth_campaign/thumb.jpg</Thumbnail>
+    <PreviewImage>Data/Images/wolfire_overgrowth_campaign/full.jpg</PreviewImage>
+
+    <Description>The main Overgrowth story for 2 players</Description>
+    <Version>1.0.0</Version>
+    <Author>Community</Author>
+
+    <Tag>Community</Tag>
+
+    <SupportedVersion>*</SupportedVersion>
+
+    <NeedsRestart>false</NeedsRestart>
+    <SupportsOnline>true</SupportsOnline>
+
+    <Campaign title="Overgrowth Story Multiplayer" thumbnail="Textures/Thumbnails/og_story/smallest_01_slaver_camp_landing.jpg" supports_online="true" requires_online = "true" menu_script="standard_campaign_menu.as" main_script="linear_campaign.as">
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_01_slaver_camp_landing.jpg"     id="river_village_intro"            supports_online="true" title="White Flags">2p_story/01_Slaver_Camp_Landing_2p.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_02_slaver_camp.jpg"             id="slaver_camp"                    supports_online="true" title="Slaver Path">2p_story/02_Slaver_Camp_2p.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_04_main_slaver_camp.jpg"        id="slaver_camp_night"              supports_online="true" title="Night Raid">2p_story/04_Main_Slaver_Camp_2p.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_05_watchtower_build_site.jpg"   id="construction_site_cliff"        supports_online="true" title="Slaver Tower">2p_story/05_Watchtower_Build_Site.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_06_occupied_farm.jpg"           id="farm"                           supports_online="true" title="Slate Farm">2p_story/06_Occupied_Farm.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_07_beach_boat_assault.jpg"      id="beach"                          supports_online="true" title="Windcutter Beach">2p_story/07_Beach_Boat_Assault.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_08_ice_cliff_landing.jpg"       id="ice_cliffs"                     supports_online="true" title="Ice Cliffs">2p_story_story/08_Ice_Cliff_Landing.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_09_dog_for_rescue.jpg"          id="dog_base"                       supports_online="true" title="Dog Fort">2p_story/09_Dog_Fort_Rescue.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_10_storm_troopers.jpg"          id="dog_patrols"                    supports_online="true" title="Dog Patrols">2p_story/10_Storm_Troopers.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_11_rebel_base.jpg"              id="rebel_base_climb"               supports_online="true" title="Rebel Base">2p_story/11_Rebel_Base.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_12_canyon_ambush.jpg"           id="canyon_ambush"                  supports_online="true" title="Canyon Ambush">2p_story/12_Canyon_Ambush.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_13_rat_slavers.jpg"             id="rat_camp"                       supports_online="true" title="Catchers">2p_story/13_Rat_Slavers.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_13b_rat_slavers.jpg"            id="rat_fog_ambush"                 supports_online="true" title="Thick Fog">2p_story/13b_Rat_Slavers.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_14_the_rats_cache.jpg"          id="tree_climb"                     supports_online="true" title="Tree Climb">2p_story/14_The_Rats_Cache.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_15_bayou.jpg"                   id="rat_swamp"                      supports_online="true" title="Shallow Swamp">2p_story/15_Bayou.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_17_rat_hq.jpg"                  id="rat_hq"                         supports_online="true" title="Rat Base">2p_story/17_Rat_HQ.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_18_rude_awakening.jpg"          id="arena_intro_pit"                supports_online="true" title="Pit Duel">2p_story/18_RudeAwakening.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_19_magma_barracks.jpg"          id="arena_barracks_intro"           supports_online="true" title="Magma Barracks">2p_story/19_Magma_Barracks.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_19b_magma_arena.jpg"            id="magma_arena"                    supports_online="true" title="Magma Arena">2p_story/19b_Magma_Arena.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_20_volcano_mine.jpg"            id="volcano_platforming"            supports_online="true" title="Volcano Climb">2p_story/20_Volcano_Mine.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_21_waterfall_barracks.jpg"      id="arena_barracks_cutscene"        supports_online="true" title="Waterfall Barracks">2p_story/21_Waterfall_Barracks.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_22_waterfall_arena.jpg"         id="waterfall_arena"                supports_online="true" title="Waterfall Arena">2p_story/22_Waterfall_Arena.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_22b_Waterfall_Barracks_return.jpg" id="arena_barracks_cutscene_ret" supports_online="true" title="Midnight Plan">2p_story/22b_Waterfall_Barracks_return.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_22b_cave.jpg"                   id="cave_escape"                    supports_online="true" title="Cave Assassin">2p_story/cave_artPass.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_23a_barracks.jpg"               id="rock_arena_barracks"            supports_online="true" title="Rock Barracks">2p_story/23a_barracks.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_23_cave_arena.jpg"              id="rock_arena"                     supports_online="true" title="Rock Arena">2p_story/23_Rock_Arena.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_24_forced_fight.jpg"            id="rock_arena_barracks_fight"      supports_online="true" title="Midnight Duel">2p_story/24_Forced_Fight.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_25_garden_duel.jpg"             id="cat_courtyard_escape"           supports_online="true" title="Cat City">2p_story/25_Garden_Duel.xml</Level>
+        <Level thumbnail="Textures/Thumbnails/og_story/smallest_27_sky_ark.jpg"                 id="sky_ark"                        supports_online="true" title="Sky Island">2p_story/27_Sky_Ark.xml</Level>
+    </Campaign>
+</Mod>

@@ -1,0 +1,57 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <ActorObject t0="-9.59946" t1="-4.04846" t2="7.93426" s0="1" s1="1" s2="1" q0="-0.00924093" q1="6.09756e-05" q2="-0.00659897" q3="0.999936" euler_x="-0.0184825" euler_y="0" euler_z="-0.0131986" id="1047" type_file="Data/Objects/IGF_Characters/IGF_TurnerActor.xml" is_player="1">
+        <parameters>
+            <parameter name="Aggression" type="string" val="0.5" />
+            <parameter name="Attack Damage" type="string" val="1" />
+            <parameter name="Attack Knockback" type="string" val="1" />
+            <parameter name="Attack Speed" type="string" val="1" />
+            <parameter name="Block Follow-up" type="string" val="0.5" />
+            <parameter name="Block Skill" type="string" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="string" val="1" />
+            <parameter name="Damage Resistance" type="string" val="1" />
+            <parameter name="Ear Size" type="string" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="string" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="string" val="90.5" />
+            <parameter name="Focus FOV horizontal" type="string" val="0.63" />
+            <parameter name="Focus FOV vertical" type="string" val="0.63" />
+            <parameter name="Ground Aggression" type="string" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="4" />
+            <parameter name="Left handed" type="string" val="false" />
+            <parameter name="Movement Speed" type="string" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="string" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="string" val="1.4100000000000001" />
+            <parameter name="Peripheral FOV vertical" type="string" val="1.4100000000000001" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="string" val="false" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="a" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Cloth" channel="0" red="0.235571" green="0.495325" blue="0.811765" />
+            <Color label="Rope" channel="1" red="0.843137" green="0.770868" blue="0.168627" />
+            <Color label="Fur" channel="2" red="0.435294" green="0.344821" blue="0.290196" />
+        </Palette>
+    </ActorObject>
+</ActorObjects>
