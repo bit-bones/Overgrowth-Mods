@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<Mod>
+    <Id>com-wolfire-versus-plus</Id>
+    <Name>Versus Plus</Name>
+
+    <Category>Campaign</Category>
+
+    <Thumbnail>Data/Images/versus_plus/thumb.jpg</Thumbnail>
+    <PreviewImage>Data/Images/versus_plus/thumb.jpg</PreviewImage>
+
+    <Description>The multiplayer versus game mode expanded</Description>
+    <Version>0.0.1</Version>
+    <Author>Community</Author>
+
+    <Tag>Campaign</Tag>
+
+    <SupportedVersion>*</SupportedVersion>
+    <NeedsRestart>false</NeedsRestart>
+    <SupportsOnline>true</SupportsOnline>
+
+    <Campaign title="Versus Plus" thumbnail="Images/wolfire_versus/campaign.jpg" menu_script="arena_multiplayer_menu.as" main_script="versus_campaign.as" supports_online="true" requires_online="true">
+        <Level supports_online="true" requires_online="true" title="Grass Beach" thumbnail="Images/wolfire_versus/thumbnails/grass_beach.png">wolfire/grass_beach.xml</Level>
+        <Level supports_online="true" requires_online="true" title="Grass Beach test" thumbnail="Images/wolfire_versus/thumbnails/grass_beach.png">custom/grass_beach_test.xml</Level>
+        <Level supports_online="true" requires_online="true" title="Red Desert" thumbnail="Images/wolfire_versus/thumbnails/red_desert.png">wolfire/red_desert.xml</Level>
+        <Level supports_online="true" requires_online="true" title="Red Hills" thumbnail="Images/wolfire_versus/thumbnails/red_hills.png">wolfire/red_hills.xml</Level>
+        <Level supports_online="true" requires_online="true" title="Volcano" thumbnail="Images/wolfire_versus/thumbnails/volcano.jpg">versus_plus/volcano.xml</Level>
+        <Level supports_online="true" requires_online="true" title="Mountain Top" thumbnail="Images/wolfire_versus/thumbnails/mountain_top.jpg">versus_plus/mountain_top.xml</Level>
+        <Level supports_online="true" requires_online="true" title="Pit" thumbnail="Images/wolfire_versus/thumbnails/pit.jpg">versus_plus/pit.xml</Level>
+        <Level supports_online="true" requires_online="true" title="The Ring" thumbnail="Images/wolfire_versus/thumbnails/the_ring.jpg">versus_plus/the_ring.xml</Level>
+        <Level supports_online="true" requires_online="true" title="The Bridge" thumbnail="Images/wolfire_versus/thumbnails/placeholder.jpg">custom/the_bridge.xml</Level>
+        <Level supports_online="true" requires_online="true" title="Dog Fort" thumbnail="Textures/Thumbnails/og_story/smallest_09_dog_for_rescue.jpg">custom/dog_fort.xml</Level>
+    </Campaign>
+</Mod>

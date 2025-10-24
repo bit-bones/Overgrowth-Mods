@@ -1,0 +1,293 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<Name>the_ring</Name>
+<Description></Description>
+<Shader>post</Shader>
+<Shadows>true</Shadows>
+<LoadingScreen>
+	<Image>Data/Images/wolfire_versus/loading_screens/the_ring_loading.jpg</Image>
+</LoadingScreen>
+<OutOfDate NavMesh="false" NavMeshParamHash="-1674835251" />
+<AmbientSounds />
+<Script>versusmodeplus.as</Script>
+<LevelScriptParameters>
+    <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
+    <parameter name="Custom Shader" type="string" val="#WATER_HORIZON" />
+    <parameter name="Fog amount" type="float" val="1" />
+    <parameter name="GPU Particle Field" type="string" val="" />
+    <parameter name="HDR Black point" type="float" val="0.005" />
+    <parameter name="HDR Bloom multiplier" type="float" val="1" />
+    <parameter name="HDR White point" type="float" val="0.971" />
+    <parameter name="Level Boundaries" type="int" val="1" />
+    <parameter name="Load Tip" type="string" val="A pure test of combat skill in a square ring." />
+    <parameter name="Objectives" type="string" val="destroy_all" />
+    <parameter name="Player Limit" type="int" val="2" />
+    <parameter name="Saturation" type="float" val="1" />
+    <parameter name="Shared Camera" type="int" val="0" />
+    <parameter name="Sky Brightness" type="float" val="1" />
+    <parameter name="Sky Rotation" type="float" val="-62" />
+    <parameter name="Sky Tint" type="string" val="255, 255, 255" />
+</LevelScriptParameters>
+<NavMeshParameters generate="true" cell_size="0.3" cell_height="0.2" agent_height="1.7" agent_radius="0.4" agent_max_climb="1.5" agent_max_slope="60" />
+<Sky>
+    <DomeTexture>Data/Textures/skies/full_moon.tga</DomeTexture>
+    <SunAngularRad>0.153056</SunAngularRad>
+    <SunColorAngle>353.589</SunColorAngle>
+    <RayToSun r0="0.843168" r1="0.508385" r2="0.174962" />
+</Sky>
+<ActorObjects>
+    <Hotspot t0="4.10613" t1="-6.8137" t2="4.26959" s0="5000" s1="1" s2="5000" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="0" type_file="Data/Objects/Hotspots/wet_cube.xml">
+        <parameters>
+            <parameter name="Water Fog" type="float" val="0" />
+            <parameter name="Wave Density" type="float" val="0.25" />
+            <parameter name="Wave Height" type="float" val="0.5" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <CameraObject t0="-2.06249" t1="8.49576" t2="16.8256" s0="1" s1="1" s2="1" q0="0.349864" q1="0.146282" q2="-0.0554093" q3="0.923648" euler_x="0.724313" euler_y="0.314185" euler_z="0" id="1">
+        <parameters />
+    </CameraObject>
+    <EnvObject t0="3.42549" t1="-101.581" t2="2.37398" s0="9" s1="100" s2="9" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="2" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/primitives/edged_cube.xml">
+        <parameters />
+    </EnvObject>
+    <ActorObject t0="-4.4566" t1="-0.60249" t2="2.58336" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="5" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="1">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="turner" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="5" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Fur" channel="0" red="0.99999" green="1" blue="0.999991" />
+            <Color label="Pants" channel="1" red="0" green="0.6" blue="0.0847059" />
+            <Color label="Shirt" channel="2" red="0" green="0.6" blue="0.0847059" />
+            <Color label="Leather" channel="3" red="0" green="0" blue="0" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="11.2732" t1="-0.662671" t2="2.551" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="9" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="1">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="9" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Fur" channel="0" red="1" green="1" blue="1" />
+            <Color label="Pants" channel="1" red="0.627451" green="0" blue="0" />
+            <Color label="Shirt" channel="2" red="0.627451" green="0" blue="0" />
+            <Color label="Leather" channel="3" red="0" green="0" blue="0" />
+        </Palette>
+    </ActorObject>
+    <EnvObject t0="12.2641" t1="-1.8715" t2="11.2069" s0="1" s1="1.76" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="13" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Environment/DogGrave/DogGravePost.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="12.2766" t1="-1.581" t2="-6.48378" s0="1" s1="1.76" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="16" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Environment/DogGrave/DogGravePost.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-5.43567" t1="-1.58099" t2="-6.50649" s0="1" s1="1.76" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="17" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Environment/DogGrave/DogGravePost.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-5.40203" t1="-1.46041" t2="11.2015" s0="1" s1="1.76" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="18" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Environment/DogGrave/DogGravePost.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="3.428" t1="-0.61" t2="11.19" s0="1.08879" s1="-7.549" s2="1.08879" q0="-0.00127564" q1="0.00126859" q2="0.709061" q3="0.705145" euler_x="0" euler_y="0.0035981" euler_z="1.57633" id="19" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Environment/DogGrave/DogGravePost.xml">
+        <parameters />
+    </EnvObject>
+    <Hotspot t0="3.48564" t1="-1.581" t2="2.26101" s0="5.63" s1="-1.64" s2="5.7" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="23" type_file="Data/Objects/Hotspots/overgrowth_level.xml">
+        <parameters>
+            <parameter name="death_message" type="string" val="You lose!" />
+            <parameter name="music" type="string" val="rescue" />
+            <parameter name="player_spawn" type="string" val="" />
+            <parameter name="press_attack_to_restart" type="int" val="0" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <EnvObject t0="-5.40422" t1="-0.64079" t2="2.37717" s0="1.08879" s1="-7.549" s2="1.08879" q0="0.497711" q1="0.502279" q2="0.500485" q3="0.499515" euler_x="1.5708" euler_y="0.00359801" euler_z="1.57634" id="24" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Environment/DogGrave/DogGravePost.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="3.41663" t1="-0.611011" t2="-6.50615" s0="1.08879" s1="-7.549" s2="1.08879" q0="-0.00127564" q1="0.00126859" q2="0.709061" q3="0.705145" euler_x="0" euler_y="0.0035981" euler_z="1.57633" id="25" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Environment/DogGrave/DogGravePost.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="12.2437" t1="-0.515735" t2="2.39095" s0="1.08879" s1="-7.549" s2="1.08879" q0="0.497711" q1="0.502279" q2="0.500485" q3="0.499515" euler_x="1.5708" euler_y="0.00359801" euler_z="1.57634" id="26" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Environment/DogGrave/DogGravePost.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="3.68609" t1="-1.44997" t2="2.54895" s0="-19.78" s1="1.06" s2="22.55" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="27" type_file="Data/Objects/Decals/rugs/thick_tan_rug.xml" color_r="0.945098" color_g="0.945089" color_b="0.945089" overbright="1.368">
+        <parameters />
+    </Decal>
+    <ReflectionCaptureObject t0="2.63354" t1="7.83208" t2="4.39477" s0="0.48742" s1="0.48742" s2="0.48742" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="29" gicoeff00="0.210358" gicoeff01="0.22052" gicoeff02="0.241119" gicoeff03="0.148132" gicoeff04="0.159576" gicoeff05="0.180389" gicoeff06="0.0507431" gicoeff07="0.069397" gicoeff08="0.115814" gicoeff09="0.314087" gicoeff10="0.298767" gicoeff11="0.264648" gicoeff12="0.190704" gicoeff13="0.204102" gicoeff14="0.229187" gicoeff15="0.167969" gicoeff16="0.17627" gicoeff17="0.192474">
+        <parameters>
+            <parameter name="Global" type="string" val="1" />
+        </parameters>
+    </ReflectionCaptureObject>
+    <LightProbeObject t0="-0.223603" t1="-1.581" t2="1.44562" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="32" gicoeff00="0" gicoeff01="0" gicoeff02="0" gicoeff03="0" gicoeff04="0" gicoeff05="0" gicoeff06="0" gicoeff07="0" gicoeff08="0" gicoeff09="0" gicoeff10="0" gicoeff11="0" gicoeff12="0" gicoeff13="0" gicoeff14="0" gicoeff15="0" gicoeff16="0" gicoeff17="0">
+        <parameters>
+            <parameter name="Negative" type="int" val="0" />
+        </parameters>
+    </LightProbeObject>
+    <Group t0="-5.39593" t1="0.607533" t2="11.2072" s0="0.152444" s1="0.153954" s2="0.161559" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="33" version="1">
+        <parameters />
+        <Hotspot t0="-5.39399" t1="0.610224" t2="11.2138" s0="0.0360703" s1="0.0360703" s2="0.0360703" q0="0" q1="0" q2="-1" q3="0.000545621" euler_x="0" euler_y="0" euler_z="-3.1405" id="34" type_file="Data/Objects/Hotspots/fire_test.xml">
+            <parameters>
+                <parameter name="Fire Ribbons" type="int" val="4" />
+                <parameter name="Ignite Characters" type="int" val="1" />
+                <parameter name="Light Amplify" type="float" val="1" />
+                <parameter name="Light Distance" type="float" val="2" />
+            </parameters>
+            <Connections />
+            <ConnectionsFrom />
+        </Hotspot>
+        <EnvObject t0="-5.40003" t1="0.579079" t2="11.1977" s0="0.0700532" s1="0.0108276" s2="0.0691368" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="35" color_r="0.0235294" color_g="0.0235292" color_b="0.0235292" overbright="0" type_file="Data/Objects/primitives/edged_cube.xml">
+            <parameters />
+        </EnvObject>
+        <Decal t0="-5.39297" t1="0.588549" t2="11.1968" s0="0.111851" s1="0.111851" s2="0.111851" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="36" type_file="Data/Objects/Decals/flame_base.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+            <parameters />
+        </Decal>
+    </Group>
+    <Group t0="12.2685" t1="0.184497" t2="11.2077" s0="0.152444" s1="0.153954" s2="0.161559" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="38" version="1">
+        <parameters />
+        <Hotspot t0="12.2705" t1="0.187188" t2="11.2143" s0="0.0360703" s1="0.0360703" s2="0.0360703" q0="0" q1="0" q2="-1" q3="0.000545621" euler_x="0" euler_y="0" euler_z="-3.1405" id="39" type_file="Data/Objects/Hotspots/fire_test.xml">
+            <parameters>
+                <parameter name="Fire Ribbons" type="int" val="4" />
+                <parameter name="Ignite Characters" type="int" val="1" />
+                <parameter name="Light Amplify" type="float" val="1" />
+                <parameter name="Light Distance" type="float" val="2" />
+            </parameters>
+            <Connections />
+            <ConnectionsFrom />
+        </Hotspot>
+        <EnvObject t0="12.2644" t1="0.156043" t2="11.1981" s0="0.0700532" s1="0.0108276" s2="0.0691368" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="40" color_r="0.0235294" color_g="0.0235292" color_b="0.0235292" overbright="0" type_file="Data/Objects/primitives/edged_cube.xml">
+            <parameters />
+        </EnvObject>
+        <Decal t0="12.2715" t1="0.165513" t2="11.1973" s0="0.111851" s1="0.111851" s2="0.111851" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="41" type_file="Data/Objects/Decals/flame_base.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+            <parameters />
+        </Decal>
+    </Group>
+    <Group t0="12.2805" t1="0.474995" t2="-6.48217" s0="0.152444" s1="0.153954" s2="0.161559" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="43" version="1">
+        <parameters />
+        <Hotspot t0="12.2824" t1="0.477686" t2="-6.4756" s0="0.0360703" s1="0.0360703" s2="0.0360703" q0="0" q1="0" q2="-1" q3="0.000545621" euler_x="0" euler_y="0" euler_z="-3.1405" id="44" type_file="Data/Objects/Hotspots/fire_test.xml">
+            <parameters>
+                <parameter name="Fire Ribbons" type="int" val="4" />
+                <parameter name="Ignite Characters" type="int" val="1" />
+                <parameter name="Light Amplify" type="float" val="1" />
+                <parameter name="Light Distance" type="float" val="2" />
+            </parameters>
+            <Connections />
+            <ConnectionsFrom />
+        </Hotspot>
+        <EnvObject t0="12.2764" t1="0.446541" t2="-6.49175" s0="0.0700532" s1="0.0108276" s2="0.0691368" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="45" color_r="0.0235294" color_g="0.0235292" color_b="0.0235292" overbright="0" type_file="Data/Objects/primitives/edged_cube.xml">
+            <parameters />
+        </EnvObject>
+        <Decal t0="12.2834" t1="0.45601" t2="-6.49258" s0="0.111851" s1="0.111851" s2="0.111851" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="46" type_file="Data/Objects/Decals/flame_base.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+            <parameters />
+        </Decal>
+    </Group>
+    <Group t0="-5.42999" t1="0.475003" t2="-6.51044" s0="0.152444" s1="0.153954" s2="0.161559" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="48" version="1">
+        <parameters />
+        <Hotspot t0="-5.42806" t1="0.477694" t2="-6.50387" s0="0.0360703" s1="0.0360703" s2="0.0360703" q0="0" q1="0" q2="-1" q3="0.000545621" euler_x="0" euler_y="0" euler_z="-3.1405" id="49" type_file="Data/Objects/Hotspots/fire_test.xml">
+            <parameters>
+                <parameter name="Fire Ribbons" type="int" val="4" />
+                <parameter name="Ignite Characters" type="int" val="1" />
+                <parameter name="Light Amplify" type="float" val="1" />
+                <parameter name="Light Distance" type="float" val="2" />
+            </parameters>
+            <Connections />
+            <ConnectionsFrom />
+        </Hotspot>
+        <EnvObject t0="-5.43409" t1="0.446549" t2="-6.52002" s0="0.0700532" s1="0.0108276" s2="0.0691368" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="50" color_r="0.0235294" color_g="0.0235292" color_b="0.0235292" overbright="0" type_file="Data/Objects/primitives/edged_cube.xml">
+            <parameters />
+        </EnvObject>
+        <Decal t0="-5.42703" t1="0.456019" t2="-6.52085" s0="0.111851" s1="0.111851" s2="0.111851" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="51" type_file="Data/Objects/Decals/flame_base.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+            <parameters />
+        </Decal>
+    </Group>
+</ActorObjects>
+<RecentItems>
+    <SpawnerItem display_name="Water" path="Data/Objects/Hotspots/wet_cube.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/water.png" />
+    <SpawnerItem display_name="Raider Rabbit" path="Data/Objects/characters/raider_rabbit_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/raider_rabbit_actor.png" />
+    <SpawnerItem display_name="Dog Grave Post" path="Data/Objects/Environment/DogGrave/DogGravePost.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/DogGravePost.png" />
+    <SpawnerItem display_name="Thick Tan Rug" path="Data/Objects/Decals/rugs/thick_tan_rug.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/thick_tan_rug.png" />
+    <SpawnerItem display_name="Spike" path="Data/Objects/Hotspots/spike.xml" thumbnail_path="Data/UI/spawner/thumbs/Interactive Objects/spike_2.png" />
+    <SpawnerItem display_name="Light Probe" path="Data/Objects/lights/light_probe.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Fire" path="Data/Objects/fire.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Light Volume" path="Data/Objects/light_volume.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Camera" path="Data/Objects/placeholder/camera_placeholder.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/camera_placeholder.png" />
+    <SpawnerItem display_name="Blood Spatter" path="Data/Objects/Decals/bloodspatter.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/bloodspatter.png" />
+    <SpawnerItem display_name="Camera" path="Data/Objects/camera.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/camera.png" />
+    <SpawnerItem display_name="Ambient sound hotspot" path="Data/Objects/Hotspots/ambient_sound.xml" thumbnail_path="Data/UI/spawner/thumbs/Sounds/speaker_icon.png" />
+    <SpawnerItem display_name="Overgrowth level" path="Data/Objects/Hotspots/overgrowth_level.xml" thumbnail_path="Data/Textures/ui/ogicon.png" />
+    <SpawnerItem display_name="Global Reflection" path="Data/Objects/global_reflection_capture.xml" thumbnail_path="" />
+</RecentItems>
