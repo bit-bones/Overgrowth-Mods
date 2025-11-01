@@ -23,11 +23,12 @@
         <Level supports_online="true" requires_online="true" title="Grass Beach test" thumbnail="Images/wolfire_versus/thumbnails/grass_beach.png">custom/grass_beach_test.xml</Level>
         <Level supports_online="true" requires_online="true" title="Red Desert" thumbnail="Images/wolfire_versus/thumbnails/red_desert.png">wolfire/red_desert.xml</Level>
         <Level supports_online="true" requires_online="true" title="Red Hills" thumbnail="Images/wolfire_versus/thumbnails/red_hills.png">wolfire/red_hills.xml</Level>
-        <Level supports_online="true" requires_online="true" title="Volcano" thumbnail="Images/wolfire_versus/thumbnails/volcano.jpg">versus_plus/volcano.xml</Level>
-        <Level supports_online="true" requires_online="true" title="Mountain Top" thumbnail="Images/wolfire_versus/thumbnails/mountain_top.jpg">versus_plus/mountain_top.xml</Level>
-        <Level supports_online="true" requires_online="true" title="Pit" thumbnail="Images/wolfire_versus/thumbnails/pit.jpg">versus_plus/pit.xml</Level>
-        <Level supports_online="true" requires_online="true" title="The Ring" thumbnail="Images/wolfire_versus/thumbnails/the_ring.jpg">versus_plus/the_ring.xml</Level>
+        <Level supports_online="true" requires_online="true" title="Volcano" thumbnail="Images/wolfire_versus/thumbnails/volcano.jpg">wolfire/volcano.xml</Level>
+        <Level supports_online="true" requires_online="true" title="Mountain Top" thumbnail="Images/wolfire_versus/thumbnails/mountain_top.jpg">wolfire/mountain_top.xml</Level>
+        <Level supports_online="true" requires_online="true" title="Pit" thumbnail="Images/wolfire_versus/thumbnails/pit.jpg">wolfire/pit.xml</Level>
+        <Level supports_online="true" requires_online="true" title="The Ring" thumbnail="Images/wolfire_versus/thumbnails/the_ring.jpg">wolfire/the_ring.xml</Level>
         <Level supports_online="true" requires_online="true" title="The Bridge" thumbnail="Images/wolfire_versus/thumbnails/placeholder.jpg">custom/the_bridge.xml</Level>
         <Level supports_online="true" requires_online="true" title="Dog Fort" thumbnail="Textures/Thumbnails/og_story/smallest_09_dog_for_rescue.jpg">custom/dog_fort.xml</Level>
+        <Level supports_online="true" requires_online="true" title="Foggy Forest" thumbnail="Textures/Thumbnails/og_story/13b_rat_slavers.jpg">custom/foggy_forest.xml</Level>
     </Campaign>
 </Mod>

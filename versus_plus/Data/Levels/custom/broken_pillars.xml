@@ -1,0 +1,1075 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<Name>broken_pillars</Name>
+<Description></Description>
+<Shader>post</Shader>
+<Shadows>true</Shadows>
+<LoadingScreen>
+    <Image></Image>
+</LoadingScreen>
+<Terrain>
+    <Heightmap>Data/Textures/Terrain/volcano_slope/volcano_slope_hm.png</Heightmap>
+    <ShaderExtra></ShaderExtra>
+    <DetailMap></DetailMap>
+    <ColorMap>Data/Textures/Terrain/volcano_slope/volcano_slope_c.tga</ColorMap>
+    <DetailMaps>
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/volcanic.tga" normalpath="Data/Textures/Terrain/DetailTextures/volcanic_normal.tga" materialpath="Data/Materials/default.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/pebbles.tga" normalpath="Data/Textures/Terrain/DetailTextures/pebbles_normal.tga" materialpath="Data/Materials/default.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/smooth_mud.tga" normalpath="Data/Textures/Terrain/DetailTextures/smooth_mud_normal.tga" materialpath="Data/Materials/default.xml" />
+        <DetailMap colorpath="Data/Textures/Terrain/DetailTextures/grass.tga" normalpath="Data/Textures/Terrain/DetailTextures/grass_normal.png" materialpath="Data/Materials/default.xml" />
+    </DetailMaps>
+    <DetailObjects>
+        <DetailObject obj_path="Data/Objects/Plants/Groundcover/Grass/WildGrass.xml" weight_path="Data/Textures/Terrain/volcano_slope/volcano_slope_grass_w.tga" normal_conform="0" density="10" min_embed="0" max_embed="0" min_scale="1" max_scale="1" view_distance="30" jitter_degrees="0" overbright="0" tint_weight="1" />
+    </DetailObjects>
+</Terrain>
+<OutOfDate NavMesh="true" NavMeshParamHash="-1674835251" />
+<AmbientSounds />
+<Script>versusmodeplus.as</Script>
+<LevelScriptParameters>
+    <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
+    <parameter name="HDR Black point" type="float" val="0.005" />
+    <parameter name="HDR Bloom multiplier" type="float" val="1" />
+    <parameter name="HDR White point" type="float" val="0.7" />
+    <parameter name="Level Boundaries" type="int" val="1" />
+    <parameter name="Objectives" type="string" val="destroy_all" />
+    <parameter name="Saturation" type="float" val="1" />
+    <parameter name="Shared Camera" type="int" val="0" />
+</LevelScriptParameters>
+<NavMeshParameters generate="true" cell_size="0.3" cell_height="0.2" agent_height="1.7" agent_radius="0.4" agent_max_climb="1.5" agent_max_slope="60" />
+<Sky>
+    <DomeTexture>Data/Textures/skies/cirrus2_volcano_slope.tga</DomeTexture>
+    <SunAngularRad>0.1017</SunAngularRad>
+    <SunColorAngle>38.0014</SunColorAngle>
+    <RayToSun r0="0.922011" r1="0.340379" r2="0.184494" />
+</Sky>
+<ActorObjects>
+    <CameraObject t0="18.4313" t1="57.7165" t2="81.2336" s0="1" s1="1" s2="1" q0="0.262398" q1="0.316721" q2="-0.0916401" q3="0.906883" euler_x="0.563298" euler_y="0.671997" euler_z="0" id="1">
+        <parameters />
+    </CameraObject>
+    <EnvObject t0="-103.257" t1="58.8002" t2="17.9285" s0="1.37722" s1="1.37722" s2="1.37722" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="25.2607" t1="19.2381" t2="62.2117" s0="12.0661" s1="12.0661" s2="12.0661" q0="-0.0818312" q1="0.976211" q2="0.0461747" q3="0.195407" euler_x="3.0784" euler_y="0.399626" euler_z="-2.98713" id="2" type_file="Data/Objects/Decals/hex_crete_debris.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <EnvObject t0="-103.257" t1="73.8828" t2="12.4197" s0="1.37722" s1="1.37722" s2="1.37722" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-98.8166" t1="72.4661" t2="13.9843" s0="-1.51812" s1="1.46858" s2="1.37722" q0="0" q1="0" q2="1" q3="0" euler_x="0" euler_y="0" euler_z="3.14159" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockWall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="8.82505" t1="37.3057" t2="144.283" s0="1.23046" s1="1.37722" s2="1.30517" q0="0.854456" q1="0.486401" q2="0.0901585" q3="-0.158714" euler_x="-2.94744" euler_y="-0.313584" euler_z="1.00422" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockCorner.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-86.1141" t1="64.8063" t2="10.2759" s0="1.37722" s1="1.37722" s2="1.37722" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="6" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockShard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-79.1622" t1="64.4063" t2="9.5279" s0="1.37722" s1="1.37722" s2="1.37722" q0="0" q1="0" q2="-0.734101" q3="0.679041" euler_x="0" euler_y="0" euler_z="-1.64868" id="7" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockInterior.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-90.7084" t1="63.3804" t2="1.65392" s0="1.37722" s1="1.37722" s2="1.37722" q0="0" q1="-0.227295" q2="0" q3="0.973826" euler_x="0" euler_y="-0.458598" euler_z="0" id="8" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBase.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-103.155" t1="66.6789" t2="16.3104" s0="1.37722" s1="1.37722" s2="1.37722" q0="1" q1="0" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="0" id="9" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockWall.xml">
+        <parameters />
+    </EnvObject>
+    <ActorObject t0="-94.9819" t1="64.2838" t2="24.5898" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="10" type_file="Data/Objects/IGF_Characters/IGF_GuardActor_reddy.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="string" val="0.5" />
+            <parameter name="Attack Damage" type="string" val="1.0" />
+            <parameter name="Attack Knockback" type="string" val="1.0" />
+            <parameter name="Attack Speed" type="string" val="1.0" />
+            <parameter name="Block Follow-up" type="string" val="0.5" />
+            <parameter name="Block Skill" type="string" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="string" val="1.0" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="string" val="1.0" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="27" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+    </ActorObject>
+    <ActorObject t0="-110.255" t1="64.0417" t2="15.8827" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="11" type_file="Data/Objects/IGF_Characters/IGF_GuardActor_reddy.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="string" val="0.5" />
+            <parameter name="Attack Damage" type="string" val="1.0" />
+            <parameter name="Attack Knockback" type="string" val="1.0" />
+            <parameter name="Attack Speed" type="string" val="1.0" />
+            <parameter name="Block Follow-up" type="string" val="0.5" />
+            <parameter name="Block Skill" type="string" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="string" val="1.0" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="string" val="1.0" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+    </ActorObject>
+    <EnvObject t0="-83.16" t1="63.4452" t2="18.438" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.293519" q1="0.0129677" q2="-0.406067" q3="0.865325" euler_x="-0.559826" euler_y="-0.217649" euler_z="-0.814725" id="12" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-91.3762" t1="64.0173" t2="11.4886" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.375764" q1="0.160922" q2="-0.607974" q3="0.680642" euler_x="0.442944" euler_y="0.74228" euler_z="-1.28332" id="14" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockCorner.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-99.9094" t1="74.9997" t2="11.4462" s0="1.9226" s1="3.00163" s2="3.01795" q0="0.706463" q1="0.00256891" q2="0.707597" q3="-0.014533" euler_x="-1.46427" euler_y="-1.55388" euler_z="-1.65329" id="15" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockInterior.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-99.9973" t1="74.0836" t2="13.2168" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.0506253" q1="-0.372764" q2="0.926543" q3="0.00155443" euler_x="-0.766672" euler_y="-0.0951153" euler_z="-3.10657" id="16" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockShard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-96.8798" t1="70.1768" t2="11.384" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.542665" q1="-0.513331" q2="0.456874" q3="-0.482982" euler_x="-1.68705" euler_y="0" euler_z="-1.51525" id="17" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockShard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-99.7405" t1="70.3063" t2="12.8997" s0="1.9226" s1="3.00163" s2="3.01795" q0="-0.00976843" q1="-0.00102237" q2="0.0120765" q3="0.999879" euler_x="-0.0195605" euler_y="-0.00180856" euler_z="0.0241724" id="18" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockInterior.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-99.8882" t1="74.03" t2="12.7564" s0="1.9226" s1="3.00163" s2="3.01795" q0="-0.0154466" q1="0.706298" q2="0.00163195" q3="0.707744" euler_x="-1.47856" euler_y="1.55114" euler_z="-1.45441" id="19" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockInterior.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-103.31" t1="64.3639" t2="17.9281" s0="1.37722" s1="1.37722" s2="1.37722" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="20" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBase.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-95.4354" t1="63.6087" t2="11.9027" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="21" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/hex_crete_rubble.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-79.3265" t1="66.1957" t2="15.5346" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.293515" q1="0.0147101" q2="-0.410981" q3="0.862976" euler_x="-0.560026" euler_y="-0.217582" euler_z="-0.826117" id="22" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBase.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-74.3556" t1="64.1738" t2="12.0298" s0="-1.51812" s1="1.46858" s2="1.37722" q0="0" q1="0" q2="0.670711" q3="0.741719" euler_x="0" euler_y="0" euler_z="1.47033" id="23" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockWall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="34.5995" t1="34.2702" t2="61.2277" s0="1.21034" s1="1.37723" s2="-1.21928" q0="0.714073" q1="0.641804" q2="0.264773" q3="0.0899025" euler_x="2.63488" euler_y="-0.265856" euler_z="1.53351" id="24" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockCorner.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="28.4298" t1="27.5384" t2="55.6017" s0="1.23046" s1="1.37722" s2="1.30517" q0="-0.566898" q1="0.765035" q2="-0.0924718" q3="0.2912" euler_x="-2.61607" euler_y="0.347674" euler_z="-1.77175" id="25" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockCorner.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-103.257" t1="65.6195" t2="12.4197" s0="1.37722" s1="1.37722" s2="1.37722" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="26" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <PathPointObject t0="-101.815" t1="63.59" t2="23.7548" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="27" type_file="">
+        <parameters>
+            <parameter name="Type" type="string" val="Stand" />
+            <parameter name="Wait" type="float" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="28" />
+        </Connections>
+    </PathPointObject>
+    <PathPointObject t0="-118.97" t1="63.7638" t2="12.1087" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="28" type_file="">
+        <parameters>
+            <parameter name="Type" type="string" val="Stand" />
+            <parameter name="Wait" type="float" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="29" />
+        </Connections>
+    </PathPointObject>
+    <PathPointObject t0="-92.468" t1="64.4646" t2="-6.94198" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="29" type_file="">
+        <parameters>
+            <parameter name="Type" type="string" val="Stand" />
+            <parameter name="Wait" type="float" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="30" />
+        </Connections>
+    </PathPointObject>
+    <PathPointObject t0="-69.5932" t1="64.7928" t2="16.1343" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="30" type_file="">
+        <parameters>
+            <parameter name="Type" type="string" val="Stand" />
+            <parameter name="Wait" type="float" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="41" />
+        </Connections>
+    </PathPointObject>
+    <EnvObject t0="35.9113" t1="34.8845" t2="59.0657" s0="1.23046" s1="1.37722" s2="1.30517" q0="0.714073" q1="0.641804" q2="0.264773" q3="0.0899025" euler_x="2.63488" euler_y="-0.265856" euler_z="1.53351" id="31" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockCorner.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="30.2095" t1="40.0103" t2="58.4779" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.639316" q1="0.70983" q2="-0.0909375" q3="0.281332" euler_x="-2.60679" euler_y="0.287046" euler_z="-1.59609" id="36" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBase.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-77.942" t1="62.4216" t2="34.0218" s0="1.37722" s1="1.37722" s2="1.37722" q0="0" q1="-0.227295" q2="0" q3="0.973826" euler_x="0" euler_y="-0.458598" euler_z="0" id="39" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBase.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="13.9497" t1="39.6199" t2="49.6258" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.770125" q1="0.568281" q2="0.264934" q3="0.117362" euler_x="2.61666" euler_y="-0.278252" euler_z="1.34664" id="40" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBase.xml">
+        <parameters />
+    </EnvObject>
+    <PathPointObject t0="-77.4382" t1="64.0818" t2="24.6623" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="41" type_file="">
+        <parameters>
+            <parameter name="Type" type="string" val="Stand" />
+            <parameter name="Wait" type="float" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="27" />
+        </Connections>
+    </PathPointObject>
+    <ActorObject t0="-43.2807" t1="66.7772" t2="-1.47418" s0="1" s1="1" s2="1" q0="0" q1="0.450715" q2="0" q3="0.892668" euler_x="0" euler_y="0.935132" euler_z="0" id="46" type_file="Data/Objects/IGF_Characters/IGF_GuardActor_reddy.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="string" val="0.5" />
+            <parameter name="Attack Damage" type="string" val="1.0" />
+            <parameter name="Attack Knockback" type="string" val="1.0" />
+            <parameter name="Attack Speed" type="string" val="1.0" />
+            <parameter name="Block Follow-up" type="string" val="0.5" />
+            <parameter name="Block Skill" type="string" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="string" val="1.0" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="string" val="1.0" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+    </ActorObject>
+    <EnvObject t0="-2.95068" t1="-32.4977" t2="196.208" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.0142118" q1="-0.761698" q2="-0.129664" q3="0.634667" euler_x="2.30124" euler_y="-1.32744" euler_z="-2.50658" id="85" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-1.88374" t1="-27.1519" t2="197.195" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.0110934" q1="-0.759687" q2="-0.133696" q3="0.636301" euler_x="2.25603" euler_y="-1.32419" euler_z="-2.46273" id="86" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBase.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="3.20018" t1="41.0691" t2="141.077" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.155836" q1="-0.0925846" q2="0.481631" q3="0.857424" euler_x="0.188317" euler_y="-0.314015" euler_z="0.993694" id="91" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBase.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-24.7954" t1="-15.6624" t2="173.849" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.460971" q1="0.527341" q2="-0.521763" q3="-0.487011" euler_x="-1.38697" euler_y="-1.46757" euler_z="2.92611" id="99" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBase.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-37.4707" t1="57.7975" t2="146.361" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.327392" q1="-0.381594" q2="-0.562826" q3="0.656069" euler_x="-8.3849e-05" euler_y="-1.05365" euler_z="-1.41805" id="100" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBase.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-50.1794" t1="50.5667" t2="143.528" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.311385" q1="-0.392878" q2="-0.561088" q3="0.658686" euler_x="0.0615829" euler_y="-1.04914" euler_z="-1.44675" id="101" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBroken.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="15.7845" t1="37.3829" t2="49.6595" s0="-1.51812" s1="1.46858" s2="1.37722" q0="-0.321869" q1="0.737666" q2="-0.476326" q3="-0.354066" euler_x="-2.12749" euler_y="-0.977307" euler_z="-2.89307" id="102" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockWall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="31.3149" t1="15.9297" t2="55.6594" s0="2.48043" s1="2.48043" s2="2.48043" q0="0" q1="0" q2="-0.759675" q3="0.650303" euler_x="0" euler_y="0" euler_z="-1.72563" id="103" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockShard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="21.1658" t1="34.7311" t2="52.1255" s0="1.37722" s1="1.37722" s2="1.37722" q0="0" q1="0" q2="-0.759675" q3="0.650303" euler_x="0" euler_y="0" euler_z="-1.72563" id="104" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockShard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="31.1586" t1="15.6322" t2="55.3309" s0="1" s1="1" s2="1" q0="0.0732708" q1="0.0048981" q2="0.0665191" q3="0.995079" euler_x="0.147001" euler_y="0" euler_z="0.133497" id="105" color_r="0.596078" color_g="0.596078" color_b="0.596078" overbright="0" type_file="Data/Objects/Crete/hex_crete_rubble.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="-93.032" t1="64.8386" t2="10.715" s0="11.9539" s1="11.2923" s2="15.5459" q0="0.0202847" q1="0.0384759" q2="0.000629096" q3="0.999053" euler_x="0.040711" euler_y="0.0769293" euler_z="0.00282631" id="106" type_file="Data/Objects/Decals/hex_crete_debris.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-77.4989" t1="68.0044" t2="13.7012" s0="12.0661" s1="12.0661" s2="12.0661" q0="0.0440348" q1="0.509032" q2="0.102524" q3="0.853485" euler_x="0.359379" euler_y="1.03502" euler_z="0.445181" id="107" type_file="Data/Objects/Decals/hex_crete_debris.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-14.7982" t1="-16.6802" t2="162.697" s0="13.5235" s1="13.5235" s2="13.5235" q0="0.13954" q1="0.146558" q2="0.0378746" q3="0.978578" euler_x="0.300201" euler_y="0.279908" euler_z="0.119974" id="108" type_file="Data/Objects/Decals/hex_crete_debris.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <EnvObject t0="-2.09786" t1="-32.0218" t2="195.896" s0="1" s1="1" s2="1" q0="0.193846" q1="0.101914" q2="-0.047255" q3="0.974579" euler_x="0.38676" euler_y="0.218706" euler_z="-0.0539058" id="109" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/hex_crete_rubble.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-11.9386" t1="-10.0805" t2="130.013" s0="1" s1="1" s2="1" q0="0.0732708" q1="0.0048981" q2="0.0665191" q3="0.995079" euler_x="0.147001" euler_y="0" euler_z="0.133497" id="110" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/hex_crete_rubble.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-11.9803" t1="-22.4077" t2="166.932" s0="1" s1="1" s2="1" q0="0.127756" q1="0.00854015" q2="0.0661501" q3="0.98956" euler_x="0.256787" euler_y="0" euler_z="0.133497" id="111" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/hex_crete_rubble.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-97.6388" t1="65.7134" t2="12.4476" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.0147545" q1="-0.018928" q2="0.00119084" q3="0.999711" euler_x="0.0294808" euler_y="-0.0378893" euler_z="0.00182376" id="112" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBroken.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-98.6717" t1="74.4026" t2="11.1369" s0="1.23046" s1="1.37722" s2="1.30517" q0="-0.00360004" q1="0.999988" q2="0.00129702" q3="-0.00313304" euler_x="3.13898" euler_y="-0.00625671" euler_z="-3.13438" id="113" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockCorner.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="-19.0961" t1="-8.04132" t2="130.356" s0="12.0661" s1="12.0661" s2="12.0661" q0="0.0610969" q1="0.937221" q2="0.122657" q3="0.320685" euler_x="2.80303" euler_y="0.626259" euler_z="2.90083" id="114" type_file="Data/Objects/Decals/hex_crete_debris.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-8.16572" t1="-11.4251" t2="147.056" s0="12.0661" s1="12.0661" s2="12.0661" q0="-0.33068" q1="0.811586" q2="0.372068" q3="0.305851" euler_x="2.49854" euler_y="0.836824" euler_z="-2.66185" id="115" type_file="Data/Objects/Decals/hex_crete_debris.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="2.30306" t1="-14.182" t2="176.819" s0="12.0661" s1="12.0661" s2="12.0661" q0="-0.0592915" q1="0.897414" q2="0.331298" q3="0.285261" euler_x="2.40447" euler_y="0.583899" euler_z="3.04243" id="116" type_file="Data/Objects/Decals/hex_crete_debris.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="0.43463" t1="-31.9964" t2="199.177" s0="12.0661" s1="12.0661" s2="12.0661" q0="0.229999" q1="0.761738" q2="-0.0291334" q3="0.604985" euler_x="2.42084" euler_y="1.20849" euler_z="2.04609" id="117" type_file="Data/Objects/Decals/hex_crete_debris.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-6.04783" t1="-27.0356" t2="190.429" s0="12.0661" s1="12.0661" s2="12.0661" q0="0.11642" q1="0.521347" q2="-0.0233897" q3="0.845042" euler_x="0.381824" euler_y="1.08987" euler_z="0.177893" id="118" type_file="Data/Objects/Decals/hex_crete_debris.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-10.1208" t1="-23.8007" t2="176.951" s0="16.3391" s1="16.3391" s2="16.3391" q0="0.111521" q1="0.594862" q2="0.0225908" q3="0.795734" euler_x="0.652547" euler_y="1.22754" euler_z="0.524818" id="119" type_file="Data/Objects/Decals/hex_crete_debris.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-86.4732" t1="46.6567" t2="142.898" s0="10" s1="10" s2="10" q0="0.108189" q1="0.913228" q2="-0.361617" q3="0.153435" euler_x="-2.40477" euler_y="0.366648" euler_z="3.04866" id="120" type_file="Data/Objects/Decals/FadedWhiteRocks.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <EnvObject t0="9.40657" t1="41.523" t2="46.9203" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.353148" q1="0.479296" q2="0.737278" q3="-0.319348" euler_x="1.02671" euler_y="-0.973503" euler_z="-2.904" id="141" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="56.3465" t1="35.0206" t2="73.0774" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.39322" q1="0.700671" q2="-0.512962" q3="-0.302173" euler_x="-2.11489" euler_y="-0.973504" euler_z="-2.69869" id="142" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="35.001" t1="39.0986" t2="61.1484" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.281781" q1="-0.08467" q2="-0.709118" q3="0.640767" euler_x="0.527044" euler_y="0.295402" euler_z="-1.59174" id="143" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="70.467" t1="27.0334" t2="79.4285" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.39322" q1="0.700671" q2="-0.512962" q3="-0.302173" euler_x="-2.11489" euler_y="-0.973504" euler_z="-2.69869" id="144" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="42.3191" t1="16.602" t2="139.295" s0="13.5235" s1="13.5235" s2="13.5235" q0="0.23622" q1="0.150558" q2="0.116331" q3="0.95289" euler_x="0.522236" euler_y="0.234103" euler_z="0.305786" id="145" type_file="Data/Objects/Decals/hex_crete_debris.xml" color_r="0.470588" color_g="0.462745" color_b="0.52549" overbright="0">
+        <parameters />
+    </Decal>
+    <EnvObject t0="42.0066" t1="32.4707" t2="63.5233" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.302173" q1="0.512962" q2="0.700671" q3="-0.39322" euler_x="1.02671" euler_y="-0.973504" euler_z="-2.69869" id="146" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="49.1217" t1="31.1112" t2="67.4996" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.709118" q1="0.640767" q2="0.281781" q3="0.0846703" euler_x="2.61455" euler_y="-0.295402" euler_z="1.54985" id="147" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="56.2369" t1="29.752" t2="71.476" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.39322" q1="0.700671" q2="-0.512962" q3="-0.302173" euler_x="-2.11489" euler_y="-0.973504" euler_z="-2.69869" id="156" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="63.352" t1="28.3927" t2="75.4522" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.39322" q1="0.700671" q2="-0.512962" q3="-0.302173" euler_x="-2.11489" euler_y="-0.973504" euler_z="-2.69869" id="157" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="2.718" t1="44.3044" t2="42.9439" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.271621" q1="-0.1131" q2="-0.771047" q3="0.564727" euler_x="0.527044" euler_y="0.295401" euler_z="-1.79705" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="-87.2755" t1="50.0555" t2="143.741" s0="13.5235" s1="13.5235" s2="13.5235" q0="0.263404" q1="0.1369" q2="-0.132819" q3="0.94564" euler_x="0.510953" euler_y="0.335124" euler_z="-0.190782" id="163" type_file="Data/Objects/Decals/hex_crete_debris.xml" color_r="0.470588" color_g="0.462745" color_b="0.52549" overbright="0">
+        <parameters />
+    </Decal>
+    <EnvObject t0="84.2314" t1="30.0387" t2="95.5283" s0="1" s1="1" s2="1" q0="0.127756" q1="0.00854015" q2="0.0661501" q3="0.98956" euler_x="0.256787" euler_y="0" euler_z="0.133497" id="164" color_r="0.776471" color_g="0.776471" color_b="0.776471" overbright="0" type_file="Data/Objects/Crete/hex_crete_rubble.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="-6.21546" t1="-12.9242" t2="146.279" s0="13.5235" s1="13.5235" s2="13.5235" q0="0.172456" q1="0.102945" q2="0.310575" q3="0.929088" euler_x="0.396039" euler_y="0.0842686" euler_z="0.662122" id="165" type_file="Data/Objects/Decals/hex_crete_debris.xml" color_r="0.470588" color_g="0.462745" color_b="0.52549" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="46.1867" t1="18.3775" t2="136.112" s0="10" s1="10" s2="10" q0="0.119473" q1="0.0177391" q2="-0.105634" q3="0.987042" euler_x="0.234673" euler_y="0.0602958" euler_z="-0.20612" id="166" type_file="Data/Objects/Decals/FadedWhiteRocks.xml" color_r="0.368627" color_g="0.368627" color_b="0.368627" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-82.6953" t1="66.8372" t2="34.9172" s0="12.0661" s1="12.0661" s2="12.0661" q0="0.0647222" q1="0.946743" q2="0.00682683" q3="0.315343" euler_x="3.0746" euler_y="0.638777" euler_z="2.98292" id="167" type_file="Data/Objects/Decals/hex_crete_debris.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <EnvObject t0="198.586" t1="26.7785" t2="114.417" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.586394" q1="-0.391431" q2="0.501774" q3="0.501146" euler_x="-1.56483" euler_y="0.197426" euler_z="1.37579" id="169" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="149.492" t1="38.3644" t2="60.6227" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.283303" q1="-0.0794285" q2="0.94203" q3="-0.161278" euler_x="-0.0703514" euler_y="0.593638" euler_z="-2.824" id="171" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="152.375" t1="30.6352" t2="60.1413" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.283303" q1="-0.0794285" q2="0.94203" q3="-0.161278" euler_x="-0.0703514" euler_y="0.593638" euler_z="-2.824" id="172" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="141.769" t1="33.6151" t2="76.0954" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.315978" q1="0.17381" q2="0.929257" q3="-0.0801786" euler_x="0.467694" euler_y="0.593635" euler_z="-2.824" id="173" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <ActorObject t0="162.8" t1="32.3649" t2="63.9017" s0="1" s1="1" s2="1" q0="0" q1="0.97462" q2="0" q3="0.223865" euler_x="3.14159" euler_y="0.451557" euler_z="3.14159" id="176" type_file="Data/Objects/IGF_Characters/IGF_GuardActor_reddy.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="string" val="0.5" />
+            <parameter name="Attack Damage" type="string" val="1.0" />
+            <parameter name="Attack Knockback" type="string" val="1.0" />
+            <parameter name="Attack Speed" type="string" val="1.0" />
+            <parameter name="Block Follow-up" type="string" val="0.5" />
+            <parameter name="Block Skill" type="string" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="string" val="1.0" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="string" val="1.0" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+    </ActorObject>
+    <ActorObject t0="169.591" t1="31.5517" t2="59.6392" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="177" type_file="Data/Objects/IGF_Characters/IGF_GuardActor_reddy.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="string" val="0.5" />
+            <parameter name="Attack Damage" type="string" val="1.0" />
+            <parameter name="Attack Knockback" type="string" val="1.0" />
+            <parameter name="Attack Speed" type="string" val="1.0" />
+            <parameter name="Block Follow-up" type="string" val="0.5" />
+            <parameter name="Block Skill" type="string" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="string" val="1.0" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="string" val="1.0" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+    </ActorObject>
+    <Decal t0="77.5187" t1="27.9276" t2="100.207" s0="12.0661" s1="12.0661" s2="12.0661" q0="-0.0844552" q1="0.97172" q2="0.120234" q3="0.184857" euler_x="2.92099" euler_y="0.389328" euler_z="-3.01187" id="178" type_file="Data/Objects/Decals/hex_crete_debris.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="86.5499" t1="32.5909" t2="87.2716" s0="10" s1="10" s2="10" q0="0.127352" q1="-0.301727" q2="0.0250133" q3="0.944519" euler_x="0.27954" euler_y="-0.614249" euler_z="-0.0362289" id="179" type_file="Data/Objects/Decals/TanMud.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-28.6886" t1="60.2918" t2="24.0321" s0="10" s1="10" s2="10" q0="0.13451" q1="-0.00335908" q2="-0.145401" q3="0.980181" euler_x="0.268002" euler_y="0.0325365" euler_z="-0.290148" id="180" type_file="Data/Objects/Decals/TanMud.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-31.6189" t1="62.0739" t2="21.6043" s0="10" s1="10" s2="10" q0="0.0506869" q1="0.00695772" q2="-0.135351" q3="0.989476" euler_x="0.0986205" euler_y="0.0274935" euler_z="-0.270537" id="181" type_file="Data/Objects/Decals/TanMud.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-34.8206" t1="63.0766" t2="20.3368" s0="10" s1="10" s2="10" q0="0.126751" q1="-0.00256031" q2="-0.102726" q3="0.986598" euler_x="0.253389" euler_y="0.0209908" euler_z="-0.204821" id="182" type_file="Data/Objects/Decals/TanMud.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="16.8494" t1="35.917" t2="144.561" s0="5.56014" s1="5.56014" s2="5.56014" q0="0.149047" q1="-0.00235351" q2="-0.311465" q3="0.938493" euler_x="0.286223" euler_y="0.088544" euler_z="-0.628113" id="183" type_file="Data/Objects/Decals/crete_impact.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="4.12877" t1="43.5265" t2="142.016" s0="5.56014" s1="5.56014" s2="5.56014" q0="0.179843" q1="-0.0742524" q2="0.0110631" q3="0.980826" euler_x="0.363069" euler_y="-0.150201" euler_z="-0.00506262" id="184" type_file="Data/Objects/Decals/crete_impact.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="9.8876" t1="42.4099" t2="144.494" s0="5.56014" s1="5.56014" s2="5.56014" q0="0.212557" q1="-0.0110332" q2="-0.263247" q3="0.940956" euler_x="0.419735" euler_y="0.0912732" euler_z="-0.526128" id="185" type_file="Data/Objects/Decals/crete_impact.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="14.8518" t1="46.013" t2="48.8597" s0="7.33226" s1="7.37103" s2="4.61416" q0="0.0408751" q1="-0.266499" q2="-0.172399" q3="0.94741" euler_x="0.195613" euler_y="-0.513093" euler_z="-0.411466" id="186" type_file="Data/Objects/Decals/crete_impact.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="30.6325" t1="45.0884" t2="60.0691" s0="5.56014" s1="5.56014" s2="5.56014" q0="0.143961" q1="-0.236922" q2="-0.0951661" q3="0.956079" euler_x="0.361888" euler_y="-0.43966" euler_z="-0.280132" id="187" type_file="Data/Objects/Decals/crete_impact.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="27.4476" t1="33.8853" t2="57.6059" s0="7.33226" s1="7.37103" s2="4.61416" q0="0.15987" q1="-0.241096" q2="-0.404788" q3="0.867445" euler_x="0.516203" euler_y="-0.293023" euler_z="-0.951091" id="188" type_file="Data/Objects/Decals/crete_impact.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Group t0="-89.1104" t1="61.4402" t2="36.3568" s0="12.3258" s1="9.8651" s2="7.38408" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="189" version="1">
+        <parameters />
+        <EnvObject t0="-87.7581" t1="60.9837" t2="36.448" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.579575" q1="0.806048" q2="-0.0959819" q3="-0.071876" euler_x="-3.06819" euler_y="-0.229128" euler_z="-1.90327" id="32" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-93.0062" t1="62.7197" t2="36.0824" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.582968" q1="0.803227" q2="-0.0962996" q3="-0.0754995" euler_x="-3.07297" euler_y="-0.235743" euler_z="-1.89408" id="34" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBase.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-55.0916" t1="54.528" t2="146.206" s0="33.8636" s1="13.4922" s2="7.79191" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="190" version="1">
+        <parameters />
+        <EnvObject t0="-67.2735" t1="52.2406" t2="146.103" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.318767" q1="-0.389793" q2="-0.553281" q3="0.663573" euler_x="0.0167966" euler_y="-1.0553" euler_z="-1.3998" id="42" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-42.9098" t1="56.8152" t2="146.308" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.193591" q1="-0.165826" q2="0.744842" q3="0.616631" euler_x="-0.00951631" euler_y="-0.515415" euler_z="1.76109" id="43" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-51.031" t1="55.2903" t2="146.24" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.663573" q1="-0.553281" q2="0.389793" q3="0.318767" euler_x="-3.1248" euler_y="-1.0553" euler_z="-1.3998" id="44" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-59.1523" t1="53.7655" t2="146.171" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.744842" q1="-0.616631" q2="-0.193591" q3="-0.165826" euler_x="-3.13208" euler_y="0.515415" euler_z="-1.3805" id="45" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-102.912" t1="40.672" t2="143.08" s0="33.8636" s1="13.4924" s2="7.79192" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="191" version="1">
+        <parameters />
+        <EnvObject t0="-115.094" t1="38.3846" t2="142.977" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.165826" q1="0.193591" q2="-0.616631" q3="0.744842" euler_x="0.00951631" euler_y="0.515415" euler_z="-1.3805" id="33" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-90.73" t1="42.9594" t2="143.182" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.663573" q1="-0.553281" q2="0.389793" q3="0.318767" euler_x="-3.1248" euler_y="-1.0553" euler_z="-1.3998" id="35" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-98.8513" t1="41.4344" t2="143.114" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.744842" q1="-0.616631" q2="-0.193591" q3="-0.165826" euler_x="-3.13208" euler_y="0.515415" euler_z="-1.3805" id="37" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-106.972" t1="39.9095" t2="143.046" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.389794" q1="0.318767" q2="0.663573" q3="0.553281" euler_x="-0.0167988" euler_y="1.0553" euler_z="1.74179" id="38" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-116.346" t1="38.1495" t2="142.967" s0="33.8636" s1="13.4924" s2="7.79192" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="192" version="1">
+        <parameters />
+        <EnvObject t0="-128.528" t1="35.8621" t2="142.864" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.165826" q1="0.193591" q2="-0.616631" q3="0.744842" euler_x="0.00951631" euler_y="0.515415" euler_z="-1.3805" id="47" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-104.164" t1="40.4369" t2="143.069" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.663573" q1="-0.553281" q2="0.389793" q3="0.318767" euler_x="-3.1248" euler_y="-1.0553" euler_z="-1.3998" id="48" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-112.286" t1="38.9119" t2="143.001" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.744842" q1="-0.616631" q2="-0.193591" q3="-0.165826" euler_x="-3.13208" euler_y="0.515415" euler_z="-1.3805" id="49" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-120.407" t1="37.387" t2="142.932" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.389794" q1="0.318767" q2="0.663573" q3="0.553281" euler_x="-0.0167988" euler_y="1.0553" euler_z="1.74179" id="50" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-70.4273" t1="46.7715" t2="143.354" s0="33.8635" s1="13.4924" s2="7.79192" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="193" version="1">
+        <parameters />
+        <EnvObject t0="-82.6091" t1="44.4841" t2="143.251" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.165826" q1="0.193591" q2="-0.616631" q3="0.744842" euler_x="0.00951631" euler_y="0.515415" euler_z="-1.3805" id="51" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-58.2455" t1="49.0589" t2="143.456" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.663573" q1="-0.553281" q2="0.389793" q3="0.318767" euler_x="-3.1248" euler_y="-1.0553" euler_z="-1.3998" id="52" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-66.3667" t1="47.534" t2="143.388" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.744842" q1="-0.616631" q2="-0.193591" q3="-0.165826" euler_x="-3.13208" euler_y="0.515415" euler_z="-1.3805" id="53" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-74.4879" t1="46.009" t2="143.319" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.389794" q1="0.318767" q2="0.663573" q3="0.553281" euler_x="-0.0167988" euler_y="1.0553" euler_z="1.74179" id="54" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-87.5762" t1="48.4284" t2="145.932" s0="33.8636" s1="13.4924" s2="7.79192" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="194" version="1">
+        <parameters />
+        <EnvObject t0="-99.7581" t1="46.141" t2="145.829" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.165826" q1="0.193591" q2="-0.616631" q3="0.744842" euler_x="0.00951631" euler_y="0.515415" euler_z="-1.3805" id="55" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-75.3944" t1="50.7158" t2="146.035" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.663573" q1="-0.553281" q2="0.389793" q3="0.318767" euler_x="-3.1248" euler_y="-1.0553" euler_z="-1.3998" id="56" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-83.5156" t1="49.1909" t2="145.966" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.744842" q1="-0.616631" q2="-0.193591" q3="-0.165826" euler_x="-3.13208" euler_y="0.515415" euler_z="-1.3805" id="57" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-91.6368" t1="47.6659" t2="145.898" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.389794" q1="0.318767" q2="0.663573" q3="0.553281" euler_x="-0.0167988" euler_y="1.0553" euler_z="1.74179" id="58" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-133.495" t1="39.8064" t2="145.545" s0="33.8637" s1="13.4924" s2="7.79192" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="195" version="1">
+        <parameters />
+        <EnvObject t0="-145.677" t1="37.5191" t2="145.442" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.165826" q1="0.193591" q2="-0.616631" q3="0.744842" euler_x="0.00951631" euler_y="0.515415" euler_z="-1.3805" id="59" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-121.313" t1="42.0938" t2="145.648" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.663573" q1="-0.553281" q2="0.389793" q3="0.318767" euler_x="-3.1248" euler_y="-1.0553" euler_z="-1.3998" id="60" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-129.435" t1="40.5688" t2="145.579" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.744842" q1="-0.616631" q2="-0.193591" q3="-0.165826" euler_x="-3.13208" euler_y="0.515415" euler_z="-1.3805" id="61" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-137.556" t1="39.0439" t2="145.511" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.389794" q1="0.318767" q2="0.663573" q3="0.553281" euler_x="-0.0167988" euler_y="1.0553" euler_z="1.74179" id="62" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-11.4833" t1="37.8526" t2="152.397" s0="14.5992" s1="33.4181" s2="13.7562" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="197" version="1">
+        <parameters />
+        <EnvObject t0="-14.1302" t1="49.7343" t2="154.733" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.301353" q1="-0.0578363" q2="0.942591" q3="-0.131769" euler_x="-0.22813" euler_y="-0.585796" euler_z="-2.79473" id="67" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-8.83628" t1="25.9709" t2="150.061" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.134071" q1="-0.453423" q2="0.0522782" q3="0.879602" euler_x="0.32851" euler_y="-0.947025" euler_z="-0.0507215" id="68" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-10.6009" t1="33.892" t2="151.618" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.131769" q1="0.942591" q2="0.0578363" q3="-0.301353" euler_x="2.91346" euler_y="-0.585796" euler_z="-2.79473" id="69" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-12.3656" t1="41.8132" t2="153.176" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.0522782" q1="0.879602" q2="0.134071" q3="0.453423" euler_x="2.81308" euler_y="0.947025" euler_z="3.09087" id="70" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-7.12404" t1="-17.1477" t2="175.594" s0="33.7919" s1="8.44459" s2="8.89274" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="200" version="1">
+        <parameters />
+        <EnvObject t0="5.16711" t1="-18.1829" t2="176.816" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.0451092" q1="-0.0238886" q2="0.675432" q3="0.735653" euler_x="-0.0988333" euler_y="0.0257918" euler_z="1.48422" id="79" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-19.4153" t1="-16.1126" t2="174.371" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.503293" q1="0.5095" q2="0.537077" q3="-0.445705" euler_x="1.82651" euler_y="-1.46865" euler_z="2.80056" id="80" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-11.2211" t1="-16.8027" t2="175.186" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.735653" q1="0.675432" q2="0.0238886" q3="0.0451092" euler_x="3.04276" euler_y="0.0257918" euler_z="1.48422" id="81" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-3.02694" t1="-17.4927" t2="176.001" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.537077" q1="0.445706" q2="-0.503293" q3="0.5095" euler_x="1.31508" euler_y="1.46866" euler_z="-0.341017" id="82" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="32.8494" t1="24.4271" t2="136.175" s0="59.6699" s1="38.3127" s2="20.6281" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="201" version="1">
+        <parameters />
+        <Group t0="18.6622" t1="32.4052" t2="137.9" s0="31.2855" s1="22.3464" s2="12.6145" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="196" version="1">
+            <parameters />
+            <EnvObject t0="8.02154" t1="38.3891" t2="140.048" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.537044" q1="0.232273" q2="0.673021" q3="-0.45241" euler_x="-0.502557" euler_y="-1.2028" euler_z="-1.60921" id="63" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="29.3028" t1="26.4214" t2="135.752" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.155661" q1="-0.0961505" q2="0.484145" q3="0.855645" euler_x="0.183621" euler_y="-0.320737" euler_z="1.00004" id="64" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="22.2091" t1="30.4106" t2="137.184" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.45241" q1="-0.673021" q2="0.232273" q3="0.537044" euler_x="2.63903" euler_y="-1.2028" euler_z="-1.60921" id="65" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="15.1154" t1="34.3999" t2="138.616" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.484145" q1="0.855645" q2="0.15566" q3="0.0961508" euler_x="2.95797" euler_y="0.320737" euler_z="-2.14155" id="66" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="32.7734" t1="22.4467" t2="140.177" s0="31.2854" s1="22.3462" s2="12.6144" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="198" version="1">
+            <parameters />
+            <EnvObject t0="22.1328" t1="28.4304" t2="142.325" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.537044" q1="0.232273" q2="0.673021" q3="-0.45241" euler_x="-0.502557" euler_y="-1.2028" euler_z="-1.60921" id="71" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="43.4139" t1="16.4629" t2="138.029" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.155661" q1="-0.0961505" q2="0.484145" q3="0.855645" euler_x="0.183621" euler_y="-0.320737" euler_z="1.00004" id="72" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="36.3202" t1="20.452" t2="139.461" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.45241" q1="-0.673021" q2="0.232273" q3="0.537044" euler_x="2.63903" euler_y="-1.2028" euler_z="-1.60921" id="73" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="29.2266" t1="24.4413" t2="140.893" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.484145" q1="0.855645" q2="0.15566" q3="0.0961508" euler_x="2.95797" euler_y="0.320737" euler_z="-2.14155" id="74" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="47.0367" t1="16.4488" t2="132.173" s0="31.2853" s1="22.3461" s2="12.6144" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="199" version="1">
+            <parameters />
+            <EnvObject t0="36.3961" t1="22.4325" t2="134.321" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.537044" q1="0.232273" q2="0.673021" q3="-0.45241" euler_x="-0.502557" euler_y="-1.2028" euler_z="-1.60921" id="75" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="57.6772" t1="10.4651" t2="130.025" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.155661" q1="-0.0961505" q2="0.484145" q3="0.855645" euler_x="0.183621" euler_y="-0.320737" euler_z="1.00004" id="76" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="50.5836" t1="14.4541" t2="131.457" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.45241" q1="-0.673021" q2="0.232273" q3="0.537044" euler_x="2.63903" euler_y="-1.2028" euler_z="-1.60921" id="77" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="43.4899" t1="18.4434" t2="132.889" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.484145" q1="0.855645" q2="0.15566" q3="0.0961508" euler_x="2.95797" euler_y="0.320737" euler_z="-2.14155" id="78" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+    </Group>
+    <Group t0="-20.5578" t1="-8.59697" t2="126.663" s0="12.8065" s1="13.1468" s2="10.4029" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="202" version="1">
+        <parameters />
+        <EnvObject t0="-19.7272" t1="-9.70476" t2="126.282" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.344117" q1="0.867418" q2="0.00635795" q3="-0.359346" euler_x="2.8064" euler_y="-0.667508" euler_z="-2.26907" id="83" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-22.9812" t1="-5.46162" t2="127.73" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.347724" q1="0.864708" q2="0.00817183" q3="-0.362355" euler_x="2.79518" euler_y="-0.669992" euler_z="-2.25525" id="84" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBase.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-5.21248" t1="-11.2343" t2="146.099" s0="14.5992" s1="33.4181" s2="13.7562" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="203" version="1">
+        <parameters />
+        <EnvObject t0="-7.85945" t1="0.647392" t2="148.435" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.301353" q1="-0.0578363" q2="0.942591" q3="-0.131769" euler_x="-0.22813" euler_y="-0.585796" euler_z="-2.79473" id="87" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-2.5655" t1="-23.116" t2="143.763" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.134071" q1="-0.453423" q2="0.0522782" q3="0.879602" euler_x="0.32851" euler_y="-0.947025" euler_z="-0.0507215" id="88" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-4.33016" t1="-15.1949" t2="145.321" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.131769" q1="0.942591" q2="0.0578363" q3="-0.301353" euler_x="2.91346" euler_y="-0.585796" euler_z="-2.79473" id="89" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-6.09483" t1="-7.27377" t2="146.878" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.0522782" q1="0.879602" q2="0.134071" q3="0.453423" euler_x="2.81308" euler_y="0.947025" euler_z="3.09087" id="90" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-49.6473" t1="7.32999" t2="133.158" s0="10.6091" s1="9.28851" s2="6.90563" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="204" version="1">
+        <parameters />
+        <EnvObject t0="-49.6473" t1="7.32999" t2="133.163" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.344622" q1="-0.582109" q2="-0.297833" q3="0.673558" euler_x="-0.945836" euler_y="-1.4254" euler_z="-3.29104e-06" id="92" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBroken.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-48.6233" t1="6.63551" t2="132.047" s0="1.23046" s1="1.37722" s2="1.30517" q0="0.298164" q1="0.675583" q2="-0.33801" q3="0.583468" euler_x="-2.26547" euler_y="1.42874" euler_z="3.08199" id="93" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockCorner.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-4.42474" t1="6.16829" t2="146.168" s0="14.5992" s1="33.4181" s2="13.7562" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="205" version="1">
+        <parameters />
+        <EnvObject t0="-7.07171" t1="18.05" t2="148.504" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.301353" q1="-0.0578363" q2="0.942591" q3="-0.131769" euler_x="-0.22813" euler_y="-0.585796" euler_z="-2.79473" id="95" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-1.77776" t1="-5.71341" t2="143.832" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.134071" q1="-0.453423" q2="0.0522782" q3="0.879602" euler_x="0.32851" euler_y="-0.947025" euler_z="-0.0507215" id="96" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-3.54242" t1="2.20774" t2="145.389" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.131769" q1="0.942591" q2="0.0578363" q3="-0.301353" euler_x="2.91346" euler_y="-0.585796" euler_z="-2.79473" id="97" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-5.30709" t1="10.1289" t2="146.947" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.0522782" q1="0.879602" q2="0.134071" q3="0.453423" euler_x="2.81308" euler_y="0.947025" euler_z="3.09087" id="98" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="15.0223" t1="32.406" t2="143.792" s0="9.93741" s1="10.3558" s2="8.35393" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="206" version="1">
+        <parameters />
+        <EnvObject t0="15.0223" t1="32.3976" t2="143.792" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.455391" q1="-0.67005" q2="0.23113" q3="0.538731" euler_x="2.61705" euler_y="-1.20117" euler_z="-1.58402" id="13" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockBroken.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="15.212" t1="34.0147" t2="143.341" s0="1.23046" s1="1.37722" s2="1.30517" q0="-0.233665" q1="0.538759" q2="0.460364" q3="0.665736" euler_x="0.537487" euler_y="1.20123" euler_z="1.58296" id="94" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockCorner.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="51.9672" t1="87.8854" t2="-159.057" s0="15.9113" s1="10.0492" s2="33.849" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="207" version="1">
+        <parameters />
+        <EnvObject t0="55.4792" t1="89.0672" t2="-170.886" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.518213" q1="0.594328" q2="0.528322" q3="-0.31481" euler_x="1.82067" euler_y="0.174246" euler_z="-1.84291" id="121" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="48.4553" t1="86.7037" t2="-147.229" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.19765" q1="0.740012" q2="-0.642858" q3="-0.0071482" euler_x="-1.75051" euler_y="0.246016" euler_z="2.82526" id="122" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="50.7966" t1="87.4915" t2="-155.114" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.31481" q1="0.528322" q2="-0.594329" q3="0.518213" euler_x="-1.32092" euler_y="0.174246" euler_z="-1.84291" id="123" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="53.1379" t1="88.2794" t2="-163" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.642858" q1="0.00714854" q2="-0.197649" q3="0.740012" euler_x="-1.39108" euler_y="-0.246015" euler_z="-0.316332" id="124" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="63.7292" t1="73.7485" t2="-95.5798" s0="11.2144" s1="26.1077" s2="64.7111" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="210" version="1">
+        <parameters />
+        <Group t0="62.4151" t1="78.8228" t2="-111.253" s0="8.57611" s1="15.9489" s2="33.3544" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="208" version="1">
+            <parameters />
+            <EnvObject t0="61.4294" t1="82.6288" t2="-123.008" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.579312" q1="-0.373871" q2="-0.563843" q3="0.454641" euler_x="1.51893" euler_y="0.318695" euler_z="-1.48159" id="125" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="63.4008" t1="75.0169" t2="-99.4978" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.057113" q1="0.808333" q2="-0.585847" q3="0.010938" euler_x="-1.88989" euler_y="-0.0492558" euler_z="-3.03612" id="126" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="62.7437" t1="77.5542" t2="-107.335" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.454641" q1="0.563844" q2="-0.373871" q3="0.579312" euler_x="-1.62267" euler_y="0.318697" euler_z="-1.48159" id="127" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="62.0865" t1="80.0915" t2="-115.172" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.585847" q1="-0.0109376" q2="0.057113" q3="0.808333" euler_x="-1.2517" euler_y="0.0492564" euler_z="0.105471" id="128" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Group t0="65.0434" t1="68.674" t2="-79.9064" s0="8.57611" s1="15.9489" s2="33.3545" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="209" version="1">
+            <parameters />
+            <EnvObject t0="64.0577" t1="72.48" t2="-91.6617" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.579312" q1="-0.373871" q2="-0.563843" q3="0.454641" euler_x="1.51893" euler_y="0.318695" euler_z="-1.48159" id="129" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="66.0291" t1="64.8682" t2="-68.1512" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.057113" q1="0.808333" q2="-0.585847" q3="0.010938" euler_x="-1.88989" euler_y="-0.0492558" euler_z="-3.03612" id="130" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="65.372" t1="67.4054" t2="-75.988" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.454641" q1="0.563844" q2="-0.373871" q3="0.579312" euler_x="-1.62267" euler_y="0.318697" euler_z="-1.48159" id="131" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+            <EnvObject t0="64.7148" t1="69.9427" t2="-83.8249" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.585847" q1="-0.0109376" q2="0.057113" q3="0.808333" euler_x="-1.2517" euler_y="0.0492564" euler_z="0.105471" id="132" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+    </Group>
+    <Group t0="74.1339" t1="31.6224" t2="83.0179" s0="31.3802" s1="12.0442" s2="22.0741" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="211" version="1">
+        <parameters />
+        <EnvObject t0="84.8067" t1="29.5834" t2="88.9824" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.39322" q1="0.700671" q2="-0.512962" q3="-0.302173" euler_x="-2.11489" euler_y="-0.973504" euler_z="-2.69869" id="133" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="63.4612" t1="33.6615" t2="77.0534" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.281781" q1="-0.08467" q2="-0.709118" q3="0.640767" euler_x="0.527044" euler_y="0.295402" euler_z="-1.59174" id="134" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="70.5764" t1="32.3021" t2="81.0297" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.302173" q1="0.512962" q2="0.700671" q3="-0.39322" euler_x="1.02671" euler_y="-0.973504" euler_z="-2.69869" id="135" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="77.6915" t1="30.9427" t2="85.0061" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.709118" q1="0.640767" q2="0.281781" q3="0.0846703" euler_x="2.61455" euler_y="-0.295402" euler_z="1.54985" id="136" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-40.7572" t1="62.3827" t2="17.0984" s0="30.9578" s1="17.0006" s2="22.0741" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="212" version="1">
+        <parameters />
+        <EnvObject t0="-30.7243" t1="58.2106" t2="23.0629" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.319349" q1="0.737278" q2="-0.479296" q3="-0.353148" euler_x="-2.11489" euler_y="-0.973505" euler_z="-2.90399" id="137" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-50.7901" t1="66.5547" t2="11.1339" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.271621" q1="-0.1131" q2="-0.771047" q3="0.564727" euler_x="0.527044" euler_y="0.295401" euler_z="-1.79705" id="138" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-44.1014" t1="63.7734" t2="15.1103" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.353148" q1="0.479296" q2="0.737278" q3="-0.319348" euler_x="1.02671" euler_y="-0.973503" euler_z="-2.904" id="139" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-37.4129" t1="60.9919" t2="19.0866" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.771047" q1="0.564727" q2="0.271621" q3="0.1131" euler_x="2.61455" euler_y="-0.295401" euler_z="1.34454" id="140" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-15.1845" t1="46.1218" t2="31.402" s0="30.9577" s1="17.0005" s2="22.0741" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="213" version="1">
+        <parameters />
+        <EnvObject t0="-5.15163" t1="41.9499" t2="37.3665" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.319349" q1="0.737278" q2="-0.479296" q3="-0.353148" euler_x="-2.11489" euler_y="-0.973505" euler_z="-2.90399" id="148" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-25.2174" t1="50.2939" t2="25.4375" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.271621" q1="-0.1131" q2="-0.771047" q3="0.564727" euler_x="0.527044" euler_y="0.295401" euler_z="-1.79705" id="149" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-18.5288" t1="47.5126" t2="29.4138" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.353148" q1="0.479296" q2="0.737278" q3="-0.319348" euler_x="1.02671" euler_y="-0.973503" euler_z="-2.904" id="150" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-11.8403" t1="44.7312" t2="33.3902" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.771047" q1="0.564727" q2="0.271621" q3="0.1131" euler_x="2.61455" euler_y="-0.295401" euler_z="1.34454" id="151" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="11.5695" t1="34.9967" t2="47.307" s0="30.9577" s1="17.0005" s2="22.0741" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="214" version="1">
+        <parameters />
+        <EnvObject t0="21.6024" t1="30.8247" t2="53.2715" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.319349" q1="0.737278" q2="-0.479296" q3="-0.353148" euler_x="-2.11489" euler_y="-0.973505" euler_z="-2.90399" id="152" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="1.53665" t1="39.1688" t2="41.3425" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.271621" q1="-0.1131" q2="-0.771047" q3="0.564727" euler_x="0.527044" euler_y="0.295401" euler_z="-1.79705" id="153" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="8.22522" t1="36.3874" t2="45.3188" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.353148" q1="0.479296" q2="0.737278" q3="-0.319348" euler_x="1.02671" euler_y="-0.973503" euler_z="-2.904" id="154" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="14.9137" t1="33.606" t2="49.2952" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.771047" q1="0.564727" q2="0.271621" q3="0.1131" euler_x="2.61455" euler_y="-0.295401" euler_z="1.34454" id="155" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="-14.0032" t1="51.2575" t2="33.0034" s0="30.9577" s1="17.0005" s2="22.0741" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="215" version="1">
+        <parameters />
+        <EnvObject t0="-3.97028" t1="47.0855" t2="38.9679" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.319349" q1="0.737278" q2="-0.479296" q3="-0.353148" euler_x="-2.11489" euler_y="-0.973505" euler_z="-2.90399" id="159" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-24.0361" t1="55.4295" t2="27.0389" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.271621" q1="-0.1131" q2="-0.771047" q3="0.564727" euler_x="0.527044" euler_y="0.295401" euler_z="-1.79705" id="160" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-17.3474" t1="52.6482" t2="31.0153" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.353148" q1="0.479296" q2="0.737278" q3="-0.319348" euler_x="1.02671" euler_y="-0.973503" euler_z="-2.904" id="161" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="-10.6589" t1="49.8668" t2="34.9916" s0="1.37722" s1="1.37722" s2="1.37722" q0="0.771047" q1="0.564727" q2="0.271621" q3="0.1131" euler_x="2.61455" euler_y="-0.295401" euler_z="1.34454" id="162" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="145.304" t1="40.3602" t2="23.1844" s0="18.1089" s1="10.9217" s2="12.0976" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="216" version="1">
+        <parameters />
+        <EnvObject t0="149.133" t1="41.251" t2="21.914" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.0792139" q1="0.256566" q2="0.775573" q3="0.571301" euler_x="0.344908" euler_y="0.42907" euler_z="1.9477" id="168" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="141.474" t1="39.4695" t2="24.4547" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.0792139" q1="0.256566" q2="0.775573" q3="0.571301" euler_x="0.344908" euler_y="0.42907" euler_z="1.9477" id="170" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Group t0="183.391" t1="37.644" t2="60.3618" s0="10.0456" s1="17.3793" s2="8.60958" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="217" version="1">
+        <parameters />
+        <EnvObject t0="184.005" t1="41.7226" t2="60.6025" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.294167" q1="-0.00590227" q2="0.952388" q3="0.0799283" euler_x="-0.0703514" euler_y="0.593636" euler_z="2.95261" id="174" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="182.776" t1="33.5654" t2="60.121" s0="1.37722" s1="1.37722" s2="1.37722" q0="-0.294167" q1="-0.00590227" q2="0.952388" q3="0.0799283" euler_x="-0.0703514" euler_y="0.593636" euler_z="2.95261" id="175" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Prefab t0="31.4067" t1="42.2045" t2="59.8175" s0="51.3728" s1="9.26425" s2="29.5762" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="239" version="1" prefab_locked="false" prefab_path="Data/Prefabs/wolfire_versus/versus_character_pair.xml" os0="51.3728" os1="9.26425" os2="29.5762">
+        <parameters />
+        <ActorObject t0="7.12718" t1="45.8316" t2="46.4362" s0="1" s1="1" s2="1" q0="0" q1="0.443096" q2="0" q3="0.896474" euler_x="0" euler_y="0.918099" euler_z="0" id="237" type_file="Data/Objects/IGF_Characters/IGF_TurnerActor.xml" is_player="1">
+            <parameters>
+                <parameter name="Aggression" type="string" val="0.5" />
+                <parameter name="Attack Damage" type="string" val="1.0" />
+                <parameter name="Attack Knockback" type="string" val="1.0" />
+                <parameter name="Attack Speed" type="string" val="1.0" />
+                <parameter name="Block Follow-up" type="string" val="0.5" />
+                <parameter name="Block Skill" type="string" val="0.5" />
+                <parameter name="Cannot Be Disarmed" type="int" val="0" />
+                <parameter name="Character Scale" type="float" val="1" />
+                <parameter name="Damage Resistance" type="string" val="1.0" />
+                <parameter name="Ear Size" type="float" val="1" />
+                <parameter name="Fall Damage Multiplier" type="float" val="1" />
+                <parameter name="Fat" type="float" val="0.5" />
+                <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+                <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+                <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+                <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+                <parameter name="Focus FOV distance" type="float" val="100" />
+                <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+                <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+                <parameter name="Ground Aggression" type="float" val="0.5" />
+                <parameter name="Jump - Air Control" type="float" val="3" />
+                <parameter name="Jump - Initial Velocity" type="float" val="5" />
+                <parameter name="Jump - Jump Sustain" type="float" val="5" />
+                <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+                <parameter name="Knockout Shield" type="int" val="0" />
+                <parameter name="Left handed" type="int" val="0" />
+                <parameter name="Lives" type="string" val="1" />
+                <parameter name="Movement Speed" type="string" val="1.0" />
+                <parameter name="Muscle" type="float" val="0.5" />
+                <parameter name="No Look Around" type="int" val="0" />
+                <parameter name="Peripheral FOV distance" type="float" val="4" />
+                <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+                <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+                <parameter name="Species" type="string" val="rabbit" />
+                <parameter name="Static" type="int" val="0" />
+                <parameter name="Stick To Nav Mesh" type="int" val="0" />
+                <parameter name="Teams" type="string" val="turner" />
+                <parameter name="Throw Counter Probability" type="float" val="0.4" />
+                <parameter name="Throw Trainer" type="int" val="0" />
+                <parameter name="Weapon Catch Skill" type="float" val="1" />
+                <parameter name="Wearing Metal Armor" type="int" val="0" />
+            </parameters>
+            <Connections>
+                <Connection id="-1" />
+            </Connections>
+            <ItemConnections />
+            <Palette>
+                <Color label="Cloth" channel="0" red="1" green="1" blue="1" />
+                <Color label="Rope" channel="1" red="1" green="1" blue="1" />
+                <Color label="Fur" channel="2" red="1" green="1" blue="1" />
+            </Palette>
+        </ActorObject>
+        <ActorObject t0="55.6467" t1="38.6557" t2="73.1244" s0="1.01464" s1="1.01464" s2="1.01464" q0="0.0142709" q1="-0.908979" q2="-0.0187774" q3="0.416175" euler_x="3.07123" euler_y="-0.857262" euler_z="-3.07803" id="238" type_file="Data/Objects/IGF_Characters/IGF_GuardActor.xml" is_player="1">
+            <parameters>
+                <parameter name="Aggression" type="string" val="0.5" />
+                <parameter name="Attack Damage" type="string" val="1.0" />
+                <parameter name="Attack Knockback" type="string" val="1.0" />
+                <parameter name="Attack Speed" type="string" val="1.0" />
+                <parameter name="Block Follow-up" type="string" val="0.5" />
+                <parameter name="Block Skill" type="string" val="0.5" />
+                <parameter name="Cannot Be Disarmed" type="int" val="0" />
+                <parameter name="Character Scale" type="float" val="1" />
+                <parameter name="Damage Resistance" type="string" val="1.0" />
+                <parameter name="Ear Size" type="float" val="1" />
+                <parameter name="Fall Damage Multiplier" type="float" val="1" />
+                <parameter name="Fat" type="float" val="0.5" />
+                <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+                <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+                <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+                <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+                <parameter name="Focus FOV distance" type="float" val="100" />
+                <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+                <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+                <parameter name="Ground Aggression" type="float" val="0.5" />
+                <parameter name="Jump - Air Control" type="float" val="3" />
+                <parameter name="Jump - Initial Velocity" type="float" val="5" />
+                <parameter name="Jump - Jump Sustain" type="float" val="5" />
+                <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+                <parameter name="Knockout Shield" type="int" val="0" />
+                <parameter name="Left handed" type="int" val="0" />
+                <parameter name="Lives" type="string" val="1" />
+                <parameter name="Movement Speed" type="string" val="1.0" />
+                <parameter name="Muscle" type="float" val="0.5" />
+                <parameter name="No Look Around" type="int" val="0" />
+                <parameter name="Peripheral FOV distance" type="float" val="4" />
+                <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+                <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+                <parameter name="Species" type="string" val="rabbit" />
+                <parameter name="Static" type="int" val="0" />
+                <parameter name="Stick To Nav Mesh" type="int" val="0" />
+                <parameter name="Teams" type="string" val="guard" />
+                <parameter name="Throw Counter Probability" type="float" val="0.4" />
+                <parameter name="Throw Trainer" type="int" val="0" />
+                <parameter name="Weapon Catch Skill" type="float" val="1" />
+                <parameter name="Wearing Metal Armor" type="int" val="0" />
+            </parameters>
+            <Connections>
+                <Connection id="-1" />
+            </Connections>
+            <ItemConnections />
+            <Palette>
+                <Color label="Clothes" channel="0" red="0.384314" green="0.0862745" blue="0.0862745" />
+                <Color label="Fur" channel="1" red="0.458824" green="0.458824" blue="0.458824" />
+                <Color label="Leather" channel="2" red="0.184314" green="0.184314" blue="0.184314" />
+                <Color label="Armor" channel="3" red="0.247059" green="0.247059" blue="0.247059" />
+            </Palette>
+        </ActorObject>
+    </Prefab>
+</ActorObjects>
+<RecentItems>
+    <SpawnerItem display_name="versus_character_pair.xml" path="Data/Prefabs/wolfire_versus/versus_character_pair.xml" thumbnail_path="empty_placeholder.png" />
+</RecentItems>

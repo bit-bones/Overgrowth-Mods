@@ -42,12 +42,12 @@
     <RayToSun r0="-0.127649" r1="0.042799" r2="0.990896" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="100.261" t1="52.44" t2="-98.7909" s0="1" s1="1" s2="1" q0="0.168436" q1="-0.819693" q2="0.456241" q3="0.302616" euler_x="-2.1258" euler_y="-0.70732" euler_z="-3.14159" id="1">
+    <CameraObject t0="134.606" t1="46.9228" t2="-116.287" s0="1" s1="1" s2="1" q0="-0.167628" q1="-0.437118" q2="0.0832923" q3="-0.879711" euler_x="0.376583" euler_y="0.922311" euler_z="0" id="1">
         <parameters />
     </CameraObject>
     <Group t0="100.097" t1="45.0981" t2="-95.5264" s0="0.688828" s1="0.695651" s2="0.730019" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="4" version="1">
         <parameters />
-        <Hotspot t0="100.106" t1="45.1103" t2="-95.4967" s0="0.162987" s1="0.162987" s2="0.162987" q0="0" q1="0" q2="-1" q3="0.000545621" euler_x="0" euler_y="0" euler_z="-3.1405" id="1" type_file="Data/Objects/Hotspots/fire_test.xml">
+        <Hotspot t0="100.106" t1="45.1103" t2="-95.4967" s0="0.162987" s1="0.162987" s2="0.162987" q0="0" q1="0" q2="-1" q3="0.000545621" euler_x="0" euler_y="0" euler_z="-3.1405" id="5" type_file="Data/Objects/Hotspots/fire_test.xml">
             <parameters>
                 <parameter name="Fire Ribbons" type="int" val="4" />
                 <parameter name="Ignite Characters" type="int" val="1" />
@@ -67,7 +67,7 @@
     <EnvObject t0="107.036" t1="45.9427" t2="-114.522" s0="1" s1="1" s2="1" q0="0" q1="0.0261769" q2="0" q3="0.999657" euler_x="0" euler_y="0.0523598" euler_z="0" id="6" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/rabbit_village/rabbit_hut_base.xml">
         <parameters />
     </EnvObject>
-    <ActorObject t0="107.385" t1="47.1326" t2="-114.216" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="7" type_file="Data/Objects/IGF_Characters/IGF_TurnerActor.xml" is_player="1">
+    <ActorObject t0="108.385" t1="47.1343" t2="-115.393" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="7" type_file="Data/Objects/IGF_Characters/IGF_TurnerActor.xml" is_player="1">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -129,7 +129,7 @@
     <EnvObject t0="100.063" t1="45.0858" t2="-95.5592" s0="1" s1="1" s2="1" q0="0" q1="-0.00455061" q2="0" q3="0.99999" euler_x="0" euler_y="-0.00910125" euler_z="0" id="13" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/fire_pit.xml">
         <parameters />
     </EnvObject>
-    <ActorObject t0="97.4226" t1="46.0926" t2="-95.5966" s0="1" s1="1" s2="1" q0="0" q1="0.942792" q2="0" q3="0.333382" euler_x="3.14159" euler_y="0.679777" euler_z="3.14159" id="14" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
+    <ActorObject t0="139.264" t1="46.0253" t2="-119.264" s0="1" s1="1" s2="1" q0="0.00511765" q1="0.317267" q2="-0.00984347" q3="-0.948272" euler_x="-0.0199714" euler_y="-0.645515" euler_z="0.0274398" id="14" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="0.75" />
@@ -175,6 +175,62 @@
         <Connections>
             <Connection id="14" />
         </Connections>
+        <ItemConnections>
+            <ItemConnection id="35" type="0" mirrored="0" attachment="" />
+        </ItemConnections>
+        <Palette>
+            <Color label="Shirt" channel="0" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Fur" channel="1" red="0.580392" green="0.580386" blue="0.580386" />
+            <Color label="Pants" channel="2" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Skin" channel="3" red="0.513726" green="0.191388" blue="0.244479" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="136.934" t1="46.0403" t2="-121.153" s0="1.25546" s1="1.21479" s2="1.23082" q0="0.293587" q1="-0.00310218" q2="-0.955925" q3="0.00145575" euler_x="0.0081991" euler_y="0.595938" euler_z="-3.13603" id="19" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.75" />
+            <parameter name="Attack Damage" type="float" val="0.90625" />
+            <parameter name="Attack Knockback" type="float" val="2" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.75" />
+            <parameter name="Block Skill" type="float" val="0.75" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1.4" />
+            <parameter name="Damage Resistance" type="float" val="1.40625" />
+            <parameter name="Ear Size" type="float" val="1.5" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.375" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="0.75625" />
+            <parameter name="Muscle" type="float" val="0.75" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rat" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="rat" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="19" />
+        </Connections>
         <ItemConnections />
         <Palette>
             <Color label="Shirt" channel="0" red="0.0431373" green="0.0431368" blue="0.0431368" />
@@ -183,14 +239,527 @@
             <Color label="Skin" channel="3" red="0.513726" green="0.191388" blue="0.244479" />
         </Palette>
     </ActorObject>
-    <PlaceholderObject t0="107.23" t1="46.623" t2="-114.727" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="49" type_file="" special_type="0">
+    <ActorObject t0="134.073" t1="46.3062" t2="-122.455" s0="1" s1="1" s2="1" q0="0.00511765" q1="0.317267" q2="-0.00984347" q3="-0.948272" euler_x="-0.0199714" euler_y="-0.645515" euler_z="0.0274398" id="23" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
         <parameters>
-            <parameter name="Name" type="string" val="player_spawn" />
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="0.75" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1.75" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="0.5" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.375" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1.5" />
+            <parameter name="Muscle" type="float" val="0.453125" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rat" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="rat" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
         </parameters>
         <Connections>
-            <Connection id="49" />
+            <Connection id="23" />
         </Connections>
-    </PlaceholderObject>
+        <ItemConnections>
+            <ItemConnection id="36" type="0" mirrored="0" attachment="" />
+        </ItemConnections>
+        <Palette>
+            <Color label="Shirt" channel="0" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Fur" channel="1" red="0.580392" green="0.580386" blue="0.580386" />
+            <Color label="Pants" channel="2" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Skin" channel="3" red="0.513726" green="0.191388" blue="0.244479" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="134.434" t1="46.3133" t2="-119.248" s0="1" s1="1" s2="1" q0="0.00511765" q1="0.317267" q2="-0.00984347" q3="-0.948272" euler_x="-0.0199714" euler_y="-0.645515" euler_z="0.0274398" id="27" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="0.75" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1.75" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="0.5" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.375" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1.5" />
+            <parameter name="Muscle" type="float" val="0.453125" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rat" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="rat" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="27" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Shirt" channel="0" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Fur" channel="1" red="0.580392" green="0.580386" blue="0.580386" />
+            <Color label="Pants" channel="2" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Skin" channel="3" red="0.513726" green="0.191388" blue="0.244479" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="136.735" t1="46.2388" t2="-118.046" s0="1" s1="1" s2="1" q0="0.00511765" q1="0.317267" q2="-0.00984347" q3="-0.948272" euler_x="-0.0199714" euler_y="-0.645515" euler_z="0.0274398" id="31" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="0.75" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1.75" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="0.5" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.375" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1.5" />
+            <parameter name="Muscle" type="float" val="0.453125" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rat" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="rat" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="31" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Shirt" channel="0" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Fur" channel="1" red="0.580392" green="0.580386" blue="0.580386" />
+            <Color label="Pants" channel="2" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Skin" channel="3" red="0.513726" green="0.191388" blue="0.244479" />
+        </Palette>
+    </ActorObject>
+    <ItemObject t0="139.151" t1="45.2784" t2="-118.435" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="35" type_file="Data/Items/rat_weapons/rat_throwing_blade.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <ItemObject t0="133.433" t1="45.4321" t2="-122.247" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="36" type_file="Data/Items/rat_weapons/rat_throwing_blade.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <EnvObject t0="-147.176" t1="39.3194" t2="-48.1111" s0="9.01904" s1="0.348935" s2="10.9163" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="37" color_r="0.733333" color_g="0.733326" color_b="0.733326" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-132.042" t1="34.4149" t2="-28.2929" s0="1.05535" s1="1.89123" s2="0.789172" q0="-0.00615668" q1="0.00746311" q2="0.00148209" q3="0.999954" euler_x="-0.0122924" euler_y="0.0149443" euler_z="0.00287247" id="38" color_r="0.733333" color_g="0.733326" color_b="0.733326" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-131.769" t1="33.7125" t2="-67.809" s0="1.05535" s1="1.89123" s2="0.789172" q0="-0.00615668" q1="0.00746311" q2="0.00148209" q3="0.999954" euler_x="-0.0122924" euler_y="0.0149443" euler_z="0.00287247" id="39" color_r="0.733333" color_g="0.733326" color_b="0.733326" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-162.939" t1="33.5188" t2="-67.5924" s0="1.05535" s1="1.89123" s2="0.789172" q0="-0.00615668" q1="0.00746311" q2="0.00148209" q3="0.999954" euler_x="-0.0122924" euler_y="0.0149443" euler_z="0.00287247" id="40" color_r="0.733333" color_g="0.733326" color_b="0.733326" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-162.092" t1="33.7479" t2="-28.6098" s0="1.05535" s1="1.89123" s2="0.789172" q0="-0.00615668" q1="0.00746311" q2="0.00148209" q3="0.999954" euler_x="-0.0122924" euler_y="0.0149443" euler_z="0.00287247" id="41" color_r="0.733333" color_g="0.733326" color_b="0.733326" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-117.389" t1="35.0608" t2="-48.1189" s0="9.01904" s1="0.348935" s2="10.9163" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="42" color_r="0.733333" color_g="0.733326" color_b="0.733326" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <ActorObject t0="105.608" t1="47.1128" t2="-115.066" s0="1" s1="1" s2="1" q0="-0.00924093" q1="6.09756e-05" q2="-0.00659897" q3="0.999936" euler_x="-0.0184825" euler_y="0" euler_z="-0.0131986" id="43" type_file="Data/Objects/IGF_Characters/IGF_TurnerActor.xml" is_player="1">
+        <parameters>
+            <parameter name="Aggression" type="string" val="0.5" />
+            <parameter name="Attack Damage" type="string" val="1" />
+            <parameter name="Attack Knockback" type="string" val="1" />
+            <parameter name="Attack Speed" type="string" val="1" />
+            <parameter name="Block Follow-up" type="string" val="0.5" />
+            <parameter name="Block Skill" type="string" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="string" val="1" />
+            <parameter name="Damage Resistance" type="string" val="1" />
+            <parameter name="Ear Size" type="string" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="string" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="string" val="90.5" />
+            <parameter name="Focus FOV horizontal" type="string" val="0.63" />
+            <parameter name="Focus FOV vertical" type="string" val="0.63" />
+            <parameter name="Ground Aggression" type="string" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="4" />
+            <parameter name="Left handed" type="string" val="false" />
+            <parameter name="Movement Speed" type="string" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="string" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="string" val="1.4100000000000001" />
+            <parameter name="Peripheral FOV vertical" type="string" val="1.4100000000000001" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="string" val="false" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="turner" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Cloth" channel="0" red="0.235571" green="0.495325" blue="0.811765" />
+            <Color label="Rope" channel="1" red="0.843137" green="0.770868" blue="0.168627" />
+            <Color label="Fur" channel="2" red="0.435294" green="0.344821" blue="0.290196" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="-152.109" t1="41.1396" t2="-41.2001" s0="1.25546" s1="1.21479" s2="1.23082" q0="-0.708634" q1="-0.00273469" q2="-0.705566" q3="-0.00206512" euler_x="2.13972" euler_y="-1.56241" euler_z="1.00224" id="47" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.75" />
+            <parameter name="Attack Damage" type="float" val="0.90625" />
+            <parameter name="Attack Knockback" type="float" val="2" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.75" />
+            <parameter name="Block Skill" type="float" val="0.75" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1.4" />
+            <parameter name="Damage Resistance" type="float" val="1.40625" />
+            <parameter name="Ear Size" type="float" val="1.5" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.375" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="0.75625" />
+            <parameter name="Muscle" type="float" val="0.75" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rat" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="rat" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="47" />
+        </Connections>
+        <ItemConnections>
+            <ItemConnection id="56" type="0" mirrored="0" attachment="" />
+        </ItemConnections>
+        <Palette>
+            <Color label="Shirt" channel="0" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Fur" channel="1" red="0.580392" green="0.580386" blue="0.580386" />
+            <Color label="Pants" channel="2" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Skin" channel="3" red="0.513726" green="0.191388" blue="0.244479" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="-151.82" t1="41.3662" t2="-52.5838" s0="1.25546" s1="1.21479" s2="1.23082" q0="-0.680927" q1="0.0403481" q2="-0.731141" q3="-0.0118304" euler_x="-0.553413" euler_y="-1.48907" euler_z="-2.66201" id="51" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.75" />
+            <parameter name="Attack Damage" type="float" val="0.90625" />
+            <parameter name="Attack Knockback" type="float" val="2" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.75" />
+            <parameter name="Block Skill" type="float" val="0.75" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1.4" />
+            <parameter name="Damage Resistance" type="float" val="1.40625" />
+            <parameter name="Ear Size" type="float" val="1.5" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.375" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="0.75625" />
+            <parameter name="Muscle" type="float" val="0.75" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rat" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="rat" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="51" />
+        </Connections>
+        <ItemConnections>
+            <ItemConnection id="55" type="0" mirrored="0" attachment="" />
+        </ItemConnections>
+        <Palette>
+            <Color label="Shirt" channel="0" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Fur" channel="1" red="0.580392" green="0.580386" blue="0.580386" />
+            <Color label="Pants" channel="2" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Skin" channel="3" red="0.513726" green="0.191388" blue="0.244479" />
+        </Palette>
+    </ActorObject>
+    <ItemObject t0="-151.214" t1="40.4662" t2="-51.7388" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="55" type_file="Data/Items/rat_weapons/rat_throwing_blade.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <ItemObject t0="-151.252" t1="40.4662" t2="-40.7479" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="56" type_file="Data/Items/rat_weapons/rat_throwing_blade.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <ActorObject t0="-148.587" t1="41.3662" t2="-37.1157" s0="1" s1="1" s2="1" q0="0.0110676" q1="-0.743265" q2="0.000770628" q3="-0.668906" euler_x="-2.99101" euler_y="1.46427" euler_z="-2.97642" id="57" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="0.75" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1.75" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="0.5" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.375" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1.5" />
+            <parameter name="Muscle" type="float" val="0.453125" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rat" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="rat" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="57" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Shirt" channel="0" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Fur" channel="1" red="0.580392" green="0.580386" blue="0.580386" />
+            <Color label="Pants" channel="2" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Skin" channel="3" red="0.513726" green="0.191388" blue="0.244479" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="-148.437" t1="41.3662" t2="-46.564" s0="1" s1="1" s2="1" q0="0.0110676" q1="-0.743265" q2="0.000770628" q3="-0.668906" euler_x="-2.99101" euler_y="1.46427" euler_z="-2.97642" id="61" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="0.75" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1.75" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="0.5" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.375" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1.5" />
+            <parameter name="Muscle" type="float" val="0.453125" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rat" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="rat" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="61" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Shirt" channel="0" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Fur" channel="1" red="0.580392" green="0.580386" blue="0.580386" />
+            <Color label="Pants" channel="2" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Skin" channel="3" red="0.513726" green="0.191388" blue="0.244479" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="-148.717" t1="41.3662" t2="-57.2126" s0="1" s1="1" s2="1" q0="0.0110929" q1="-0.683076" q2="-0.000182681" q3="-0.730264" euler_x="-0.235198" euler_y="1.50231" euler_z="-0.219242" id="65" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="0.75" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1.75" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="0.5" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.375" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1.5" />
+            <parameter name="Muscle" type="float" val="0.453125" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rat" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="rat" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="65" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Shirt" channel="0" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Fur" channel="1" red="0.580392" green="0.580386" blue="0.580386" />
+            <Color label="Pants" channel="2" red="0.0431373" green="0.0431368" blue="0.0431368" />
+            <Color label="Skin" channel="3" red="0.513726" green="0.191388" blue="0.244479" />
+        </Palette>
+    </ActorObject>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Macuahuitl Metal" path="Data/Items/macuahuitl_metal.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/macahuitl_m.png" />
@@ -223,4 +792,14 @@
     <SpawnerItem display_name="Male Rabbit Black Neck" path="Data/Objects/characters/rabbits/male_rabbit_1_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/Male_rabbit_1_actor.png" />
     <SpawnerItem display_name="Kill Timeout Hotspot" path="Data/Objects/Hotspots/kill_timeout.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="Player Spawn" path="Data/Objects/placeholder/placeholder_player_spawn.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/placeholder_player_spawn.png" />
+    <SpawnerItem display_name="male_rabbit_3.xml" path="Data/Objects/characters/rabbits/male_rabbit_3.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="Alpha Male Wolf" path="Data/Objects/IGF_Characters/IGF_WolfActor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/IGF_wolfActor.png" />
+    <SpawnerItem display_name="IGF_GuardActor.xml" path="Data/Objects/IGF_Characters/IGF_GuardActor.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="Rabbit Pants (flak)" path="Data/Objects/characters/rabbit_pants_flak.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Macuahuitl Glass" path="Data/Items/macuahuitl_glass.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/macahuitl_g.png" />
+    <SpawnerItem display_name="Crete Block Standard" path="Data/Objects/Crete/CreteBlockStandard.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/CreteBlockStandard.png" />
+    <SpawnerItem display_name="male_rabbit_3_actor.xml" path="Data/Objects/characters/rabbits/male_rabbit_3_actor.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="second_player.xml" path="Data/Characters/second_player.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="Rat Machete" path="Data/Items/rat_weapons/rat_machete.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Rat Throwing Blade" path="Data/Items/rat_weapons/rat_throwing_blade.xml" thumbnail_path="" />
 </RecentItems>

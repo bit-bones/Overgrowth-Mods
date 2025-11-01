@@ -1,0 +1,14 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Hotspot t0="-8.46856" t1="-14.7403" t2="1.66182" s0="28.82" s1="7.35" s2="36.3" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="35" type_file="Data/Objects/Hotspots/overgrowth_level.xml">
+        <parameters>
+            <parameter name="death_message" type="string" val="You lose!" />
+            <parameter name="music" type="string" val="slaver" />
+            <parameter name="player_spawn" type="string" val="" />
+            <parameter name="press_attack_to_restart" type="int" val="0" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+</ActorObjects>

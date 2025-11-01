@@ -42,7 +42,7 @@
     <RayToSun r0="-0.127649" r1="0.042799" r2="0.990896" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-163.614" t1="59.5864" t2="-12.3524" s0="1" s1="1" s2="1" q0="0.310447" q1="0.0747062" q2="-0.0244816" q3="0.947334" euler_x="0.633353" euler_y="0.157393" euler_z="0" id="1">
+    <CameraObject t0="-86.3167" t1="55.0479" t2="-84.8264" s0="1" s1="1" s2="1" q0="0.0457845" q1="-0.95365" q2="0.192816" q3="0.226446" euler_x="-2.7426" euler_y="-0.466268" euler_z="3.14159" id="1">
         <parameters />
     </CameraObject>
     <Group t0="100.097" t1="45.0981" t2="-95.5264" s0="0.688828" s1="0.695651" s2="0.730019" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="4" version="1">
@@ -480,7 +480,7 @@
             <Color label="Fur" channel="2" red="0.435294" green="0.344821" blue="0.290196" />
         </Palette>
     </ActorObject>
-    <ActorObject t0="-152.109" t1="41.1396" t2="-41.2001" s0="1.25546" s1="1.21479" s2="1.23082" q0="-0.708634" q1="-0.00273469" q2="-0.705566" q3="-0.00206512" euler_x="2.13968" euler_y="-1.56241" euler_z="1.00228" id="47" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
+    <ActorObject t0="-152.109" t1="41.1396" t2="-41.2001" s0="1.25546" s1="1.21479" s2="1.23082" q0="-0.708634" q1="-0.00273469" q2="-0.705566" q3="-0.00206512" euler_x="2.13972" euler_y="-1.56241" euler_z="1.00224" id="47" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.75" />
             <parameter name="Attack Damage" type="float" val="0.90625" />
@@ -536,7 +536,7 @@
             <Color label="Skin" channel="3" red="0.513726" green="0.191388" blue="0.244479" />
         </Palette>
     </ActorObject>
-    <ActorObject t0="-151.82" t1="41.3662" t2="-52.5838" s0="1.25546" s1="1.21479" s2="1.23082" q0="-0.680927" q1="0.0403481" q2="-0.731141" q3="-0.0118304" euler_x="-0.55342" euler_y="-1.48908" euler_z="-2.66202" id="51" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
+    <ActorObject t0="-151.82" t1="41.3662" t2="-52.5838" s0="1.25546" s1="1.21479" s2="1.23082" q0="-0.680927" q1="0.0403481" q2="-0.731141" q3="-0.0118304" euler_x="-0.553413" euler_y="-1.48907" euler_z="-2.66201" id="51" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.75" />
             <parameter name="Attack Damage" type="float" val="0.90625" />
@@ -598,7 +598,7 @@
     <ItemObject t0="-151.252" t1="40.4662" t2="-40.7479" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="56" type_file="Data/Items/rat_weapons/rat_throwing_blade.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </ItemObject>
-    <ActorObject t0="-148.587" t1="41.3662" t2="-37.1157" s0="1" s1="1" s2="1" q0="0.0110676" q1="-0.743265" q2="0.000770628" q3="-0.668906" euler_x="-2.99101" euler_y="1.46427" euler_z="-2.97643" id="57" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
+    <ActorObject t0="-148.587" t1="41.3662" t2="-37.1157" s0="1" s1="1" s2="1" q0="0.0110676" q1="-0.743265" q2="0.000770628" q3="-0.668906" euler_x="-2.99101" euler_y="1.46427" euler_z="-2.97642" id="57" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="0.75" />
@@ -652,7 +652,7 @@
             <Color label="Skin" channel="3" red="0.513726" green="0.191388" blue="0.244479" />
         </Palette>
     </ActorObject>
-    <ActorObject t0="-148.437" t1="41.3662" t2="-46.564" s0="1" s1="1" s2="1" q0="0.0110676" q1="-0.743265" q2="0.000770628" q3="-0.668906" euler_x="-2.99101" euler_y="1.46427" euler_z="-2.97643" id="61" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
+    <ActorObject t0="-148.437" t1="41.3662" t2="-46.564" s0="1" s1="1" s2="1" q0="0.0110676" q1="-0.743265" q2="0.000770628" q3="-0.668906" euler_x="-2.99101" euler_y="1.46427" euler_z="-2.97642" id="61" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="0.75" />
@@ -706,7 +706,7 @@
             <Color label="Skin" channel="3" red="0.513726" green="0.191388" blue="0.244479" />
         </Palette>
     </ActorObject>
-    <ActorObject t0="-148.717" t1="41.3662" t2="-57.2126" s0="1" s1="1" s2="1" q0="0.0110929" q1="-0.683076" q2="-0.000182681" q3="-0.730264" euler_x="-0.235197" euler_y="1.50231" euler_z="-0.219241" id="65" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
+    <ActorObject t0="-148.717" t1="41.3662" t2="-57.2126" s0="1" s1="1" s2="1" q0="0.0110929" q1="-0.683076" q2="-0.000182681" q3="-0.730264" euler_x="-0.235198" euler_y="1.50231" euler_z="-0.219242" id="65" type_file="Data/Objects/characters/rats/hooded_rat_actor.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="0.75" />
@@ -760,6 +760,12 @@
             <Color label="Skin" channel="3" red="0.513726" green="0.191388" blue="0.244479" />
         </Palette>
     </ActorObject>
+    <EnvObject t0="-102.048" t1="29.5885" t2="-28.4654" s0="1.05535" s1="1.89123" s2="0.789172" q0="-0.00615668" q1="0.00746311" q2="0.00148209" q3="0.999954" euler_x="-0.0122924" euler_y="0.0149443" euler_z="0.00287247" id="69" color_r="0.733333" color_g="0.733326" color_b="0.733326" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-102.111" t1="29.5539" t2="-67.6748" s0="1.05535" s1="1.89123" s2="0.789172" q0="-0.00615668" q1="0.00746311" q2="0.00148209" q3="0.999954" euler_x="-0.0122924" euler_y="0.0149443" euler_z="0.00287247" id="70" color_r="0.733333" color_g="0.733326" color_b="0.733326" overbright="0" type_file="Data/Objects/Crete/CreteBlockStandard.xml">
+        <parameters />
+    </EnvObject>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Macuahuitl Metal" path="Data/Items/macuahuitl_metal.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/macahuitl_m.png" />
